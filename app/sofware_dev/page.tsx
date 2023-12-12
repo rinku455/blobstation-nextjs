@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/style.module.css";
-import { AiOutlineArrowRight } from "react-icons/ai";
 
 
 const Software = () => {

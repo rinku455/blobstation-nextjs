@@ -1,5 +1,9 @@
 
 
+.bi_dropicon { transform: rotate(90deg); width: 14px;
+  height: 14px;
+  margin-left: 5px;}
+
 /* header-section-start */
 .images {width: 100%; max-width: 100%;}
 
