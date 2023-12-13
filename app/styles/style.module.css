@@ -1,3 +1,19 @@
+/* 
+.close_icon_box  {
+  width: 48px;
+  height: 48px;
+  border-radius:8px ;
+  background-color: #2e8096;
+  width: 24px;
+  height: 2px;
+} */
+
+/* .bi_nav_icon {
+margin-top: 0;
+
+} */
+
+
 
 
 .bi_dropicon { transform: rotate(90deg); width: 14px;
@@ -37,9 +53,18 @@
 .header_sticky {position: fixed;}
 
 .navbar {  
- 
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  background: white;
   border-block: 1px solid #ece9e9;
 }
+
+.slider_li {
+  padding: 10px 0;
+}
+
 .container_hader {
   max-width: 1500px;
   width: 100%;
@@ -1030,6 +1055,10 @@ display: inline-flex;
 }
 
 @media (max-width: 992px) {
+
+
+  .service_drop_btn {
+    font-size: 18px;}
   /* /******** hero section  start************* */
   .hero_main {
     display: block;
