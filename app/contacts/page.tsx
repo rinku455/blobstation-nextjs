@@ -34,28 +34,24 @@ const Form = () => {
 
               <Select className={styles.select} defaultValue="Company Type" >
             
-                <option value="volvo">Company Type</option>
+                {/* <option value="volvo">Company Type</option>
                 <option value="saab">Startup</option>
                 <option value="opel">SEM</option>
-                <option value="audi">Enterprise</option>
+                <option value="audi">Enterprise</option> */}
               </Select>
    
               <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
               <ul>
                 <li>
-                
                   <Checkbox  className={styles.check} >Design</Checkbox>
                 </li>
                 <li>
-                 
                   <Checkbox  className={styles.check}>Cloud & Devops</Checkbox>
                 </li>
                 <li>
-                
                   <Checkbox className={styles.check}>Development</Checkbox>
                 </li>
-                <li>
-                 
+                <li> 
                   <Checkbox className={styles.check}>Staff Augmentation</Checkbox>
                 </li>
               </ul>

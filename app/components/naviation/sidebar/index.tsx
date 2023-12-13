@@ -22,7 +22,7 @@ const Sidebar = ({
         
       >
          {/* <div className={styles.main_nav}> */}
-          <button className="absolute left-0 p-5 w-full border-b-2-300  text-lg" onClick={toggle}>
+          <button className="absolute left-0 p-5 w-full border-b-2-300 " onClick={toggle}>
             <img className={styles.img_logo} src="images/blob.jpg" />
           </button>
 
@@ -46,40 +46,38 @@ const Sidebar = ({
           </button>
         {/* </div> */}
 
-        <ul className="sidebar-nav text-center max-w-full  bg-neutral-300 text-lg
-    margin: 10px 0;
-    padding: 24px;  ">
-          <li className={styles.slider_li} >
+        <ul className={styles.sidebar_ul}>
+          <li className={styles.sidebar_li}>
             <Link href="/" onClick={toggle}>
               <p>Home</p>
             </Link>
-          </li >
-          <li className={styles.slider_li}>
+          </li>
+          <li className={styles.sidebar_li}>
             <Link href="" onClick={toggle}>
               <Dropservice />
             </Link>
           </li>
-          <li className={styles.slider_li}>
+          <li className={styles.sidebar_li}>
             <Link href="/casestudy" onClick={toggle}>
               <p>Case Studies</p>
             </Link>
           </li>
-          <li className={styles.slider_li}>
+          <li className={styles.sidebar_li}>
             <Link href="/aboutus" onClick={toggle}>
               <p>About Us</p>
             </Link>
           </li>
-          <li className={styles.slider_li}>
+          <li className={styles.sidebar_li}>
             <Link href="/blog" onClick={toggle}>
               <p>Blog</p>
             </Link>
           </li>
-          <li className={styles.slider_li}>
+          <li className={styles.sidebar_li}>
             <Link href="/contacts" onClick={toggle}>
               <p>Contacts</p>
             </Link>
           </li>
-          <li className={styles.slider_li}>  <Button /></li>
+          <li className={styles.sidebar_li}>  <Button /></li>
         </ul>
       
       </div>

@@ -15,7 +15,7 @@ const Solution = () => {
               Whether you've just got started or well established corporation -
               we got you covered!{" "}
             </p>
-            <div className={styles.btn_box_3}>
+            {/* <div className={styles.btn_box_3}>
               <ul>
                 <li>
                   {" "}
@@ -55,7 +55,7 @@ const Solution = () => {
                   will work with you to develop a customized plan.
                 </p>
               </div>
-            </div>
+            </div> */}
           </>
         </div>
       </div>

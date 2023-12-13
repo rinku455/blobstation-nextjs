@@ -11,42 +11,41 @@ const items = [
   {
     key: '1',
     label: (
-      <a className={styles.drop_box} target="_blank" rel="noopener noreferrer" >
-        
+      <div className={styles.drop_box}  rel="noopener noreferrer" >
         <img className={styles.drop_img} src="/images/drop-img-1.svg"/>
         <Link href="/design">
        Design
        </Link>
-      </a>
+      </div>
     ),
   },
   {
     key: '2',
     label: (
-      <a className={styles.drop_box} target="_blank" rel="noopener noreferrer" href="/development">
+      <div className={styles.drop_box}  rel="noopener noreferrer" >
          <img className={styles.drop_img} src="/images/drop-img-2.svg"/>
          <Link href="/development">
         Development
         </Link>
-      </a>
+      </div>
     ),
   },
   {
     key: '3',
     label: (
-      <a className={styles.drop_box} target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+      <div className={styles.drop_box}  rel="noopener noreferrer" >
          <img className={styles.drop_img} src="/images/drop-img-3.svg"/>
      Cloud & DevOps
-      </a>
+      </div>
     ),
   },
   {
     key: '4',
     label: (
-      <a className={styles.drop_box} target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+      <div className={styles.drop_box}  rel="noopener noreferrer">
          <img className={styles.drop_img} src="/images/drop-img-4.svg"/>
      Staff Augmentation
-      </a>
+      </div>
     ),
   },
 ];
