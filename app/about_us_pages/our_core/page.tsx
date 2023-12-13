@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/aboutcss.module.css";
 import { Row, Col } from "antd";
+import Image from "next/image";
 
 const OurCore = () => {
   return (
@@ -24,12 +25,19 @@ const OurCore = () => {
             <Row className={styles.core_row}>
               <Col
                 sm={{ span: 24 }}
-                md={{ span:  12}}
+                md={{ span: 12 }}
                 lg={{ span: 12 }}
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-1.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-1.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Values</h3>
                   <p>
                     Our values are more than just a high standard of work - it’s
@@ -46,7 +54,14 @@ const OurCore = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-2.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-2.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Communication</h3>
                   <p>
                     We believe communication is the key to any project's success
@@ -62,7 +77,14 @@ const OurCore = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-3.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-3.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Transparency</h3>
                   <p>
                     Transparency brings trust and facilitates a never breaking
@@ -81,7 +103,14 @@ const OurCore = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-4.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-4.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Flexibility </h3>
                   <p>
                     We want you to succeed as much as you do - that’s why we are
@@ -97,7 +126,14 @@ const OurCore = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-5.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-5.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Diversity</h3>
                   <p>
                     The art of thinking independently together. We support
@@ -108,12 +144,19 @@ const OurCore = () => {
 
               <Col
                 sm={{ span: 24 }}
-                md={{ span: 12   }}
+                md={{ span: 12 }}
                 lg={{ span: 12 }}
                 xl={{ span: 8 }}
               >
                 <div className={styles.core_box}>
-                  <img className={styles.core_img} src="images/core-6.svg" />
+                  <Image
+                    className={styles.core_img}
+                    src="/images/core-6.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+
                   <h3>Efficiency and Efficacy</h3>
                   <p>
                     To ensure we produce high-quality work in a timely manner,

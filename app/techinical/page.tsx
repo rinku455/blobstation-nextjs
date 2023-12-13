@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/style.module.css";
 import { Col, Row } from "antd";
 import Link from "next/link";
+import Image from "next/image";
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
@@ -27,7 +28,13 @@ const Technical = () => {
               >
                 <div className={styles.tech_box}>
                   <div className={styles.tech_main}>
-                    <img className={styles.images} src="images/tech1.png " />
+                    <Image
+                      src="/images/tech1.png"
+                      width={390}
+                      height={155}
+                      alt=""
+                    />
+
                     <h2 className={styles.tech_box_h2}>
                       {" "}
                       Surviving the test of time: Deploying a web application
@@ -49,7 +56,12 @@ const Technical = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.tech_box}>
-                  <img className={styles.images} src="images/texh2.png  " />
+                  <Image
+                    src="/images/tech2.png"
+                    width={390}
+                    height={155}
+                    alt=""
+                  />
                   <h2 className={styles.tech_box_h2}>
                     {" "}
                     Xamarin vs Ionic – The Cross-Platform or Hybrid App
@@ -69,7 +81,12 @@ const Technical = () => {
                 xl={{ span: 8 }}
               >
                 <div className={styles.tech_box}>
-                  <img className={styles.images} src="images/tech3.png " />
+                  <Image
+                    src="/images/tech3.png"
+                    width={390}
+                    height={155}
+                    alt=""
+                  />
                   <h2 className={styles.tech_box_h2}>
                     {" "}
                     Xamarin vs Ionic – The Cross-Platform or Hybrid App
@@ -92,7 +109,6 @@ const Technical = () => {
                   height="23"
                   fill="currentColor"
                   className={styles.bi_arrow}
-                  
                   viewBox="0 0 16 16"
                 >
                   <path

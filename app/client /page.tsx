@@ -1,11 +1,12 @@
 import React from "react";
 import { Carousel } from "antd";
 import styles from "../styles/responsive.module.css";
+import Image from "next/image";
 
 const contentStyle = {
   margin: "0 auto",
   background: "#fff",
-  item:"2"
+  item: "2",
 };
 
 const Client = () => {
@@ -25,37 +26,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -77,37 +93,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -128,39 +159,51 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                      <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
-                    <li>
-                      {" "}
-                      <img
+                    <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
-                    </li>
                   </ul>
                   <p>
                     Being a non technical person, it was overwhelming experience
@@ -181,37 +224,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -234,37 +292,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -286,37 +359,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -338,37 +426,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -390,37 +493,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -442,37 +560,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -494,37 +627,52 @@ const Client = () => {
                   <ul>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                     <li>
                       {" "}
-                      <img
+                       <Image
                         className={styles.client_star}
                         src="/images/client-star.svg"
+                        width={14}
+                        height={13}
+                        alt=""
                       />
                     </li>
                   </ul>
@@ -562,7 +710,6 @@ const Client = () => {
                   height="23"
                   fill="currentColor"
                   className={styles.bi_arrow}
-               
                   viewBox="0 0 16 16"
                 >
                   <path

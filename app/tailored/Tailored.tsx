@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/style.module.css";
 import { Col, Row } from "antd";
 import Link from "next/link";
-
+import Image from "next/image";
 
 const Tailored = () => {
   return (
@@ -21,11 +21,15 @@ const Tailored = () => {
                     xl={{ span: 12 }}
                   >
                     <div className={styles.model_box}>
-                      <img
+                      <Image
                         className={styles.img_taioard}
                         src="/images/tailoard-1.svg"
-                      
+                        width={77}
+                        height={65}
+                        alt=""
                       />
+
+                     
                       <h3>Staff Augmentation</h3>
                       <p>
                         We provides additional resources to supplement your
@@ -42,10 +46,14 @@ const Tailored = () => {
                     xl={{ span: 12 }}
                   >
                     <div className={styles.model_box}>
-                      <img
+                    <Image
                         className={styles.img_taioard}
-                        src="images/tailoard-2.svg"
+                        src="/images/tailoard-2.svg"
+                        width={77}
+                        height={65}
+                        alt=""
                       />
+                    
                       <h3>Dedicated Team </h3>
                       <p>
                         You get dedicated team of software professionals working
@@ -64,10 +72,14 @@ const Tailored = () => {
                     xl={{ span: 12 }}
                   >
                     <div className={styles.model_box}>
-                      <img
+                    <Image
                         className={styles.img_taioard}
-                        src="images/tailoard-3.svg"
+                        src="/images/tailoard-3.svg"
+                        width={77}
+                        height={65}
+                        alt=""
                       />
+                     
                       <h3>Fixed Cost </h3>
                       <p>
                         You get dedicated team of software professionals working
@@ -84,10 +96,14 @@ const Tailored = () => {
                     xl={{ span: 12 }}
                   >
                     <div className={styles.model_box}>
-                      <img
+                    <Image
                         className={styles.img_taioard}
-                        src="images/tailoard-4.svg"
+                        src="/images/tailoard-4.svg"
+                        width={77}
+                        height={65}
+                        alt=""
                       />
+                      
                       <h3>Time & Material</h3>
                       <p>
                         Pay for time and resources spent on the project. It
@@ -113,25 +129,24 @@ const Tailored = () => {
                   scope, and desired level of control.
                 </p>
                 <Link href="/read">
-                <button className={styles.read_btn4}>
-                {" "}
-                Read more 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="23"
-                  height="23"
-                  fill="currentColor"
-                  className={styles.bi_arrow}
-                  
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                  />
-                </svg>
-              </button>
-              </Link>
+                  <button className={styles.read_btn4}>
+                    {" "}
+                    Read more
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="23"
+                      fill="currentColor"
+                      className={styles.bi_arrow}
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                  </button>
+                </Link>
               </>
             </div>
           </div>

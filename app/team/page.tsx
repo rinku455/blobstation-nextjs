@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import styles from "../styles/style.module.css";
 import { Col, Row } from "antd";
 
@@ -19,7 +19,12 @@ const Team = () => {
             >
               <>
                 <div className={styles.img_box}>
-                  <img className={styles.images} src="images/team1.jpg" />
+                  <Image
+                    src="/images/team1.jpg"
+                    width={619}
+                    height={400}
+                    alt=""
+                  />
                 </div>
               </>
             </Col>
@@ -87,7 +92,12 @@ const Team = () => {
             >
               <>
                 <div className={styles.img_box}>
-                  <img className={styles.images} src="images/team2.jpg" />
+                  <Image
+                    src="/images/team2.jpg"
+                    width={619}
+                    height={400}
+                    alt=""
+                  />
                 </div>
               </>
             </Col>

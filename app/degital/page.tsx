@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/responsive.module.css";
 import { Col, Row } from "antd";
+import Image from "next/image";
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
@@ -43,7 +44,6 @@ const Degital = () => {
                       height="23"
                       fill="currentColor"
                       className={styles.bi_arrow}
-                    
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -54,7 +54,12 @@ const Degital = () => {
                   </button>
                 </div>
                 <div className={styles.video_box}>
-                  <img src="images/video1.gif" />
+                  <Image
+                    src="/images/video1.gif"
+                    width={515}
+                    height={257}
+                    alt=""
+                  />
                 </div>
               </div>
             </Col>
@@ -81,7 +86,6 @@ const Degital = () => {
                       height="23"
                       fill="currentColor"
                       className={styles.bi_arrow}
-                   
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -92,7 +96,13 @@ const Degital = () => {
                   </button>
                 </div>
                 <div className={styles.video_box}>
-                  <img className={styles.img_fluid} src="images/video2.gif" />
+                <Image
+                    src="/images/video2.gif"
+                    width={515}
+                    height={257}
+                    alt=""
+                  />
+
                 </div>
               </div>
             </Col>
@@ -121,7 +131,6 @@ const Degital = () => {
                       height="23"
                       fill="currentColor"
                       className={styles.bi_arrow}
-                    
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -132,7 +141,12 @@ const Degital = () => {
                   </button>
                 </div>
                 <div className={styles.video_box}>
-                  <img src="images/vide3.svg" />
+                <Image
+                    src="/images/vide3.svg"
+                    width={515}
+                    height={257}
+                    alt=""
+                  />
                 </div>
               </div>
             </Col>
@@ -161,7 +175,6 @@ const Degital = () => {
                       height="23"
                       fill="currentColor"
                       className={styles.bi_arrow}
-                 
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -172,7 +185,13 @@ const Degital = () => {
                   </button>
                 </div>
                 <div className={styles.video_box}>
-                  <img src="images/video4.png" />
+                <Image
+                    src="/images/video4.png"
+                    width={515}
+                    height={257}
+                    alt=""
+                  />
+                  
                 </div>
               </div>
             </Col>
@@ -186,7 +205,6 @@ const Degital = () => {
               height="23"
               fill="currentColor"
               className={styles.bi_arrow}
-         
               viewBox="0 0 16 16"
             >
               <path

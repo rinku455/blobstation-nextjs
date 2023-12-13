@@ -1,7 +1,8 @@
-import React from 'react';
-import { Button, Dropdown, Space } from 'antd';
-import styles from "../styles/style.module.css" ;
-import Link from 'next/link';
+import React from "react";
+import { Button, Dropdown, Space } from "antd";
+import styles from "../styles/style.module.css";
+import Link from "next/link";
+import Image from "next/image";
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
@@ -9,42 +10,63 @@ import Link from 'next/link';
 
 const items = [
   {
-    key: '1',
+    key: "1",
     label: (
-      <div className={styles.drop_box}  rel="noopener noreferrer" >
-        <img className={styles.drop_img} src="/images/drop-img-1.svg"/>
-        <Link href="/design">
-       Design
-       </Link>
+      <div className={styles.drop_box} rel="noopener noreferrer">
+        <Image
+          className={styles.drop_img}
+          src="/images/drop-img-1.svg"
+          width={46}
+          height={46}
+          alt=""
+        />
+
+        <Link href="/design">Design</Link>
       </div>
     ),
   },
   {
-    key: '2',
+    key: "2",
     label: (
-      <div className={styles.drop_box}  rel="noopener noreferrer" >
-         <img className={styles.drop_img} src="/images/drop-img-2.svg"/>
-         <Link href="/development">
-        Development
-        </Link>
+      <div className={styles.drop_box} rel="noopener noreferrer">
+        <Image
+          className={styles.drop_img}
+          src="/images/drop-img-2.svg"
+          width={46}
+          height={46}
+          alt=""
+        />
+        <Link href="/development">Development</Link>
       </div>
     ),
   },
   {
-    key: '3',
+    key: "3",
     label: (
-      <div className={styles.drop_box}  rel="noopener noreferrer" >
-         <img className={styles.drop_img} src="/images/drop-img-3.svg"/>
-     Cloud & DevOps
+      <div className={styles.drop_box} rel="noopener noreferrer">
+        <Image
+          className={styles.drop_img}
+          src="/images/drop-img-3.svg"
+          width={46}
+          height={46}
+          alt=""
+        />
+        Cloud & DevOps
       </div>
     ),
   },
   {
-    key: '4',
+    key: "4",
     label: (
-      <div className={styles.drop_box}  rel="noopener noreferrer">
-         <img className={styles.drop_img} src="/images/drop-img-4.svg"/>
-     Staff Augmentation
+      <div className={styles.drop_box} rel="noopener noreferrer">
+        <Image
+          className={styles.drop_img}
+          src="/images/drop-img-4.svg"
+          width={46}
+          height={46}
+          alt=""
+        />
+        Staff Augmentation
       </div>
     ),
   },
@@ -52,21 +74,29 @@ const items = [
 const Dropservice = () => (
   <Space direction="vertical">
     <Space wrap>
-     
-      <Dropdown 
+      <Dropdown
         menu={{
           items,
         }}
-   
         placement="bottom"
-  
       >
-        <Button  className={styles.service_drop_btn} >Services <svg xmlns="http://www.w3.org/2000/svg" width="16"
-         height="16" fill="currentColor" className={styles.bi_dropicon}  viewBox="0 0 16 16">
-  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg>  </Button>
+        <Button className={styles.service_drop_btn}>
+          Services{" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className={styles.bi_dropicon}
+            viewBox="0 0 16 16"
+          >
+            <path
+              fillRule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>{" "}
+        </Button>
       </Dropdown>
-      
     </Space>
   </Space>
 );
