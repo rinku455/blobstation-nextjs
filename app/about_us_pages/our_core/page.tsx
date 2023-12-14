@@ -4,9 +4,10 @@ import { Row, Col } from "antd";
 import Image from "next/image";
 
 const OurCore = () => {
+  const text = `you're free`;
   return (
-    <>
-      <div className={styles.our_Core}>
+    <div> 
+      {<div className={styles.our_Core}>
         <div className={styles.container}>
           <div className={styles.core_heading}>
             <h2>
@@ -167,9 +168,9 @@ const OurCore = () => {
             </Row>
           </div>
         </div>
-      </div>
-    </>
-  );
-};
+      </div>}
+    </div>
+  )
+}
 
 export default OurCore;

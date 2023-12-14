@@ -39,7 +39,8 @@ const Logo = () => {
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
    
-      <Image src="/images/blob.jpg"
+      <Image  className={styles.logoimg}
+      src="/images/blob.jpg"
       width={170}
       height={170}
       alt=""/>

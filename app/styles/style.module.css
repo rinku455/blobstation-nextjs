@@ -13,6 +13,11 @@ margin-top: 0;
 
 } */
 
+
+.logoimg {
+  width: auto; height: auto;
+}
+
 .sidebar_ul {
   width: 663px;
   text-align: center;

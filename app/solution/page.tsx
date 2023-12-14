@@ -3,9 +3,10 @@ import React from "react";
 import styles from "../styles/responsive.module.css";
 
 const Solution = () => {
+  const text = `you're free`;
   return (
-    <>
-      <div className={styles.enterprise_wrapper}>
+    <div>
+      {<div className={styles.enterprise_wrapper}>
         <div className={styles.container}>
           <>
             <h1>
@@ -58,9 +59,9 @@ const Solution = () => {
             </div> */}
           </>
         </div>
-      </div>
-    </>
-  );
-};
+      </div>}
+    </div>
+  )
+}
 
 export default Solution;

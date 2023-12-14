@@ -8,9 +8,10 @@ import TextArea from "antd/es/input/TextArea";
 import Image from "next/image";
 
 const Form = () => {
+  const text = `you're free`;
   return (
-    <>
-      <div className={styles.form_wrapper}>
+    <div>
+      {<div className={styles.form_wrapper}>
         <div className={styles.container}>
           <Row className={styles.form_row}>
             <Col
@@ -98,11 +99,11 @@ const Form = () => {
             </Col>
           </Row>
         </div>
-      </div>
+      </div>}
 
       
-    </>
-  );
-};
+    </div>
+  )
+}
 
 export default Form;

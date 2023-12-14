@@ -26,7 +26,9 @@ const Sidebar = ({
           className="absolute left-0 p-5 w-full border-b-2-300 "
           onClick={toggle}
         >
-          <Image src="/images/blob.jpg" width={170} height={170} alt="" />
+          <Image className={styles.logoimg}
+           src="/images/blob.jpg"
+           width={170} height={170} alt="" />
         </button>
 
         <button className="absolute right-0 pr-5 pt-3   " onClick={toggle}>
