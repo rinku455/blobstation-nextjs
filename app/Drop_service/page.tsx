@@ -14,8 +14,8 @@ const items = [
     label: (
       <div className={styles.drop_box} rel="noopener noreferrer">
         <Image
-          className={styles.drop_img}
-          src="/images/drop-img-1.svg"
+          className={styles.drop}
+          src="/images/drop-1.svg"
           width={46}
           height={46}
           alt=""
@@ -30,8 +30,8 @@ const items = [
     label: (
       <div className={styles.drop_box} rel="noopener noreferrer">
         <Image
-          className={styles.drop_img}
-          src="/images/drop-img-2.svg"
+          className={styles.drop}
+          src="/images/drop-2.svg"
           width={46}
           height={46}
           alt=""
@@ -45,8 +45,8 @@ const items = [
     label: (
       <div className={styles.drop_box} rel="noopener noreferrer">
         <Image
-          className={styles.drop_img}
-          src="/images/drop-img-3.svg"
+          className={styles.drop}
+          src="/images/drop-3.svg"
           width={46}
           height={46}
           alt=""
@@ -60,8 +60,8 @@ const items = [
     label: (
       <div className={styles.drop_box} rel="noopener noreferrer">
         <Image
-          className={styles.drop_img}
-          src="/images/drop-img-4.svg"
+          className={styles.drop}
+          src="/images/drop-4.svg"
           width={46}
           height={46}
           alt=""
@@ -70,7 +70,7 @@ const items = [
       </div>
     ),
   },
-];
+]; 
 const Dropservice = () => (
   <Space direction="vertical">
     <Space wrap>

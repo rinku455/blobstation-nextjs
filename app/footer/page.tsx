@@ -17,7 +17,7 @@ const Footer = () => {
               xl={{ span: 8 }}
             >
               <Image
-                className={styles.img_footer}
+                className={styles.footer}
                 src="/images/footer-logo.png"
                 width={238}
                 height={30}

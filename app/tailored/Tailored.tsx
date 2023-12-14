@@ -22,13 +22,13 @@ const Tailored = () => {
                   >
                     <div className={styles.model_box}>
                       <Image
-                        className={styles.img_taioard}
+                        className={styles.taioard}
                         src="/images/tailoard-1.svg"
                         width={77}
                         height={65}
                         alt=""
                       />
-
+ 
                      
                       <h3>Staff Augmentation</h3>
                       <p>
@@ -47,7 +47,7 @@ const Tailored = () => {
                   >
                     <div className={styles.model_box}>
                     <Image
-                        className={styles.img_taioard}
+                        className={styles.taioard}
                         src="/images/tailoard-2.svg"
                         width={77}
                         height={65}
@@ -73,7 +73,7 @@ const Tailored = () => {
                   >
                     <div className={styles.model_box}>
                     <Image
-                        className={styles.img_taioard}
+                        className={styles.taioard}
                         src="/images/tailoard-3.svg"
                         width={77}
                         height={65}
@@ -97,7 +97,7 @@ const Tailored = () => {
                   >
                     <div className={styles.model_box}>
                     <Image
-                        className={styles.img_taioard}
+                        className={styles.taioard}
                         src="/images/tailoard-4.svg"
                         width={77}
                         height={65}

@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const OurServices = () => {
   return (
-    <div className={styles.service_wrapper}>
+    <div className={styles.service_wrapper}>&apos;
       <div className={styles.container}>
         <div>
         <h2>Our Services </h2>

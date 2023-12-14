@@ -8,14 +8,14 @@ const Leader = () => {
       <div className={styles.leader_wrapper}>
         <div className={styles.container_leader}>
           <Row className={styles.leader_row}>
-            <Col
+            <Col 
               className={styles.leader_col}
               sm={{ span: 24 }}
               md={{ span: 12 }}
               lg={{ span: 12 }}
               xl={{ span: 12 }}
             >
-              <Image src="/images/leader_img.png" width={640} height={640} alt="" />
+              <Image src="/images/leader.png" width={640} height={640} alt="" />
             </Col>
 
             <Col
@@ -26,10 +26,10 @@ const Leader = () => {
               xl={{ span: 12 }}
             >
               <div className={styles.words_leader}>
-                <div className={styles.img_box}>
-                  <div className={styles.img_coma_box}>
+                <div className={styles.Image_box}>
+                  <div className={styles.coma_box}>
                     <Image
-                      src="/images/coma-img.svg"
+                      src="/images/coma.svg"
                       width={72}
                       height={49}
                       alt=""

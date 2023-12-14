@@ -44,7 +44,7 @@ export default function Home() {
               <ul>
                 <li>
                   <Image
-                    className={styles.img_fluid}
+                    className={styles.fluid}
                     src="/images/banner-im-1.svg"
                     width={110}
                     height={42}
@@ -56,8 +56,8 @@ export default function Home() {
                 <li>
 
                 <Image
-                    className={styles.img_fluid}
-                    src="/images/banner-img-2.svg"
+                    className={styles.fluid}
+                    src="/images/banner-im-2.svg"
                     width={176}
                     height={42}
                     alt=""
@@ -68,7 +68,7 @@ export default function Home() {
                   <a href="#">
 
                   <Image
-                    className={styles.img_fluid}
+                    className={styles.fluid}
                     src="/images/banner-im-3.svg"
                     width={178}
                     height={33}
@@ -82,8 +82,8 @@ export default function Home() {
                   <a href="#">
 
                   <Image
-                    className={styles.img_fluid}
-                    src="/images/banner-img-4.svg"
+                    className={styles.fluid}
+                    src="/images/banner-im-4.svg"
                     width={152}
                     height={60}
                     alt=""

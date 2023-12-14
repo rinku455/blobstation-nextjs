@@ -18,7 +18,7 @@ const Team = () => {
               xl={{ span: 12 }}
             >
               <>
-                <div className={styles.img_box}>
+                <div className={styles.im_box}>
                   <Image
                     src="/images/team1.jpg"
                     width={619}
@@ -91,7 +91,7 @@ const Team = () => {
               xl={{ span: 12 }}
             >
               <>
-                <div className={styles.img_box}>
+                <div className={styles.im_box}>
                   <Image
                     src="/images/team2.jpg"
                     width={619}

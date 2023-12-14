@@ -7,10 +7,9 @@ import { Select, Space } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import Image from "next/image";
 
-const Form = () => {
-  const text = `you're free`;
+const Form = () => {  
   return (
-    <div>
+    <div> &apos;
       {<div className={styles.form_wrapper}>
         <div className={styles.container}>
           <Row className={styles.form_row}>
@@ -81,8 +80,8 @@ const Form = () => {
               xl={{ span: 12 }}
             >
               <Image
-                className={styles.img_fluid}
-                src="/images/contact-img.jpg"
+                className={styles.fluid}
+                src="/images/contact.jpg"
                 width={480}
                 height={414}
                 alt=""

@@ -4,9 +4,9 @@ import { Row, Col } from "antd";
 import Image from "next/image";
 
 const  OurStory = () => {
-  const text = `you're free`;
+ 
   return (
-   <div>  {
+   <div>  &apos; {
    <div className={styles.our_Story}>
    <div className={styles.container}>
      <Row className={styles.our_story_row}>
@@ -31,7 +31,7 @@ const  OurStory = () => {
              all of our clients.
            </p>
          </div>
-       </Col>
+       </Col> 
        <Col
          xs={{ span: 24 }}
          md={{ span: 24 }}
@@ -39,7 +39,7 @@ const  OurStory = () => {
          xl={{ span: 12 }}
        >
          <Image
-           className={styles.story_img}
+           className={styles.story}
            src="/images/our-story1.png"
            width={620}
            height={400}
@@ -56,7 +56,7 @@ const  OurStory = () => {
          xl={{ span: 12 }}
        >
          <Image
-           className={styles.story_img}
+           className={styles.story}
            src="/images/our-story2.png"
            width={620}
            height={400}
@@ -68,7 +68,7 @@ const  OurStory = () => {
          md={{ span: 24 }}
          lg={{ span: 12 }}
          xl={{ span: 12 }}
-       >
+       > &apos;
          <div className={styles.our_story_right}>
            <h3>
              The Story of Blobstation is polished with hard work and

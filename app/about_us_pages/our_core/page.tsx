@@ -4,9 +4,8 @@ import { Row, Col } from "antd";
 import Image from "next/image";
 
 const OurCore = () => {
-  const text = `you're free`;
   return (
-    <div> 
+    <div> &apos;
       {<div className={styles.our_Core}>
         <div className={styles.container}>
           <div className={styles.core_heading}>
@@ -32,7 +31,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-1.svg"
                     width={77}
                     height={65}
@@ -56,7 +55,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-2.svg"
                     width={77}
                     height={65}
@@ -79,7 +78,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-3.svg"
                     width={77}
                     height={65}
@@ -105,7 +104,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-4.svg"
                     width={77}
                     height={65}
@@ -128,7 +127,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-5.svg"
                     width={77}
                     height={65}
@@ -151,7 +150,7 @@ const OurCore = () => {
               >
                 <div className={styles.core_box}>
                   <Image
-                    className={styles.core_img}
+                    className={styles.core}
                     src="/images/core-6.svg"
                     width={77}
                     height={65}

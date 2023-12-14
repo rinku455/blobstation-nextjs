@@ -78,7 +78,7 @@ const FastGrow = () => {
                       </li>
                       <li>
                       <Image
-                          className={styles.img}
+                          className={styles.Image}
                           src="/images/clutch.svg"
                           width={74}
                           height={32}
@@ -106,11 +106,11 @@ const FastGrow = () => {
                 lg={{ span: 6 }}
                 xl={{ span: 6 }}
               >
-                <div className={styles.gro_img_box}>
+                <div className={styles.gro_Image_box}>
 
                 <Image
-                          className={styles.img}
-                          src="/images/growth-img.png"
+                          className={styles.Image}
+                          src="/images/growth.png"
                           width={426}
                           height={426}
                           alt=""
