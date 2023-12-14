@@ -1,5 +1,7 @@
 import React from "react";
+import { Carousel } from "antd";
 import styles from "../../styles/aboutcss.module.css";
+import Image from "next/image";
 
 const Impression = () => {
   return (
@@ -14,8 +16,67 @@ const Impression = () => {
             corner. Immerse yourself in the hub of innovation, where
             productivity meets passion.
           </p>
+          <Carousel  autoplay>
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-1.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+                       
+            </div>
+           
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-2.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+            </div>
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-3.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+            </div>
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-4.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+            </div>
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-5.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+            </div>
+            <div className={styles.office_box}>
+            <Image
+                        className={styles.office}
+                        src="/images/office-6.png"
+                        width={820}
+                        height={566}
+                        alt=""
+                      />
+            </div>
+        
+            </Carousel>
         </div>
-      </div>
+      </div> 
     </>
   );
 };

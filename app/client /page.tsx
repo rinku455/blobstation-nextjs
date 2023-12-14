@@ -12,7 +12,7 @@ const contentStyle = {
 const Client = () => {
   return ( 
     <>
-      {" "}&apos;
+      {" "}&apos; 
       <div className={styles.client_wrapper}>
         <div className={styles.container}>
           <h1>
