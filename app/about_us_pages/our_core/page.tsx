@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const OurCore = () => {
   return (
-    <div> &apos;
+    <div> 
       {<div className={styles.our_Core}>
         <div className={styles.container}>
           <div className={styles.core_heading}>
             <h2>
-              Our Core <span>Competencies</span>{" "}
+              Our Core <span>Competencies</span>{}
             </h2>
             <p>
               At Blobstation, our workplace thrives on a rich tapestry of core
@@ -40,7 +40,7 @@ const OurCore = () => {
 
                   <h3>Values</h3>
                   <p>
-                    Our values are more than just a high standard of work - it’s
+                    Our values are more than just a high standard of work - it&apos;s
                     a culmination of transparency, flexibility, speed and
                     diversity.
                   </p>
@@ -113,7 +113,7 @@ const OurCore = () => {
 
                   <h3>Flexibility </h3>
                   <p>
-                    We want you to succeed as much as you do - that’s why we are
+                    We want you to succeed as much as you do - that&apos;s why we are
                     open to cater our working hours directly to your schedule.
                   </p>
                 </div>

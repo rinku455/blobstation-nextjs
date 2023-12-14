@@ -132,10 +132,10 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 
-.story_img {
+.story{
   border-radius: 8px;
   width: 100%;
   max-width: 100%;
@@ -194,7 +194,8 @@
   padding: 0;
 }
 
-.core_img {
+.core
+ {
   width: 77px;
   height: 65px;
   margin-bottom: 24px;
@@ -275,11 +276,11 @@
   line-height: 1em;
 }
 
-.img_box {
+.Image_box {
   position: relative;
 }
 
-.img_coma_box {
+.coma_box {
   position: absolute;
   top: -30%;
   left: -14%;
@@ -494,7 +495,7 @@ line-height: 52px;
     margin-bottom: 50px;
   }
 
-  .img_box {
+  .Image_box {
     position: unset;
   }
 
