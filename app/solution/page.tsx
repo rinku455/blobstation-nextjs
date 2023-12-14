@@ -46,7 +46,7 @@ const Solution = () => {
               </ul>
             </div>
             <div className={styles.img_container} id="img-conternt">
-              <img className={styles.images} id="my-image" />
+      
               <div className={styles.img_text} id="imgtext">
                 <h1 id="heading">Enterprise</h1>
                 <p id="ptag">

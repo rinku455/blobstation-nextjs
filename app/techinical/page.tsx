@@ -57,7 +57,7 @@ const Technical = () => {
               >
                 <div className={styles.tech_box}>
                   <Image
-                    src="/images/tech2.png"
+                    src="/images/texh2.png"
                     width={390}
                     height={155}
                     alt=""

@@ -6,7 +6,7 @@ import styles from  "./../../../styles/style.module.css";
 import Image from 'next/image'
 
 const Logo = () => {
-  // <img src="/images/blob.jpg"/>
+
   //update the size of the logo when the size of the screen changes
   const [width, setWidth] = useState(0);
 

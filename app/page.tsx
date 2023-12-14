@@ -14,7 +14,7 @@ import Marquee from "react-fast-marquee";
 import Form from "./contacts/page";
 import Client from "./client /page";
 import Solution from "./solution/page";
-
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -43,31 +43,53 @@ export default function Home() {
               <p className={styles.team_p}>Trusted by the teams at: </p>
               <ul>
                 <li>
-                  <img
+                  <Image
                     className={styles.img_fluid}
-                    src="/images/banner-im-1.svg  "
+                    src="/images/banner-im-1.svg"
+                    width={110}
+                    height={42}
+                    alt=""
                   />
+
+                
                 </li>
                 <li>
-                  <img
+
+                <Image
                     className={styles.img_fluid}
-                    src="/images/banner-img-2.svg  "
+                    src="/images/banner-img-2.svg"
+                    width={176}
+                    height={42}
+                    alt=""
                   />
+                  
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      className={styles.img_fluid}
-                      src="images/banner-im-3.svg"
-                    />
+
+                  <Image
+                    className={styles.img_fluid}
+                    src="/images/banner-im-3.svg"
+                    width={178}
+                    height={33}
+                    alt=""
+                  />
+
+                    
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img
-                      className={styles.img_fluid}
-                      src="images/banner-img-4.svg"
-                    />
+
+                  <Image
+                    className={styles.img_fluid}
+                    src="/images/banner-img-4.svg"
+                    width={152}
+                    height={60}
+                    alt=""
+                  />
+
+                    
                   </a>
                 </li>
               </ul>
@@ -77,70 +99,109 @@ export default function Home() {
             <ul className={styles.hero_parent}>
               <li>
                 <ul className={styles.hero_child}>
-                    <li>
-                      {" "}
-                      <img className={styles.image} src="images/banner1.JPG" />
-                    </li>
-                    <li>
-                      {" "}
-                      <img className={styles.image} src="images/banner2.JPG" />
-                    </li>
-                    {/* <li>
-                      {" "}
-                      <img className={styles.image} src="images/banner3.JPG" />
+                  <li>
+                
+
+                    <Image
+                    className={styles.image}
+                    src="/images/banner1.JPG"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                   
+                  </li>
+                  <li>
+                
+
+                    <Image
+                    className={styles.image}
+                    src="/images/banner2.JPG"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                  
+                  </li>
+                  {/* <li>
+                    <Image
+                  className={styles.image}
+                    src="/images/banner3.JPG "
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                  
                     </li> */}
                 </ul>
               </li>
               <li>
                 <ul className={styles.hero_child}>
-                 
-                    <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner2-1.png"
-                      />
-                    </li>
-                    <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner2-2.png"
-                      />
-                    </li>
-                    {/* <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner2-3.png"
-                      />
-                    </li> */}
+                  <li>
+
+                  <Image
+                  className={styles.image}
+                    src="/images/banner2-1.png"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
                 
+                   
+                  </li>
+                  <li>
+                  <Image
+                  className={styles.image}
+                    src="/images/banner2-2.png"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                   
+                  
+                  </li>
+                  {/* <li>
+                     <Image
+                  className={styles.image}
+                    src="/images/banner2-3.webp"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                    </li> */}
                 </ul>
               </li>
               <li className={styles.last}>
                 <ul className={styles.hero_last}>
-                 
-                    <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner3-1.webp"
-                      />
-                    </li>
-                    <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner3-2.webp"
-                      />
-                    </li>
-                    {/* <li>
-                      {" "}
-                      <img
-                        className={styles.image}
-                        src="images/banner3-3.webp"
-                      />
+                  <li>
+                  <Image
+                  className={styles.image}
+                    src="/images/banner3-1.webp"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+             
+                  </li>
+                  <li>
+                  <Image
+                  className={styles.image}
+                    src="/images/banner3-2.webp"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                   
+                  </li>
+                  {/* <li>
+                   <Image
+                  className={styles.image}
+                    src="/images/banner3-3.webp"
+                    width={174}
+                    height={300}
+                    alt=""
+                  />
+                      
                     </li>
                   */}
                 </ul>
@@ -160,10 +221,10 @@ export default function Home() {
       <Degital />
       <Client />
       <Software />
-<Solution/>
+      <Solution />
       <Technical />
       <Trust />
-     <Form />
+      <Form />
       <Footer />
     </>
   );
