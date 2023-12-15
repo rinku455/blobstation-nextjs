@@ -15,9 +15,9 @@ const Sidebar = ({
     <>
       <div
         className="sidebar-container fixed w-full h-full overflow-hidden position-sticky justify-center bg-white 
-        grid pt-[60px] left-0 z-10"
+        grid pt-[60px] left-0 z-10" 
         style={{
-          opacity: `${isOpen ? "1" : "0"}`,
+          opacity: `${isOpen ? "1" : "0"}`,  
           top: ` ${isOpen ? "0" : "-100%"}`,
         }}
       >
@@ -34,7 +34,7 @@ const Sidebar = ({
         <button className="absolute right-0 pr-5 pt-3   " onClick={toggle}>
           {/* Close icon */}
           <div className={styles.close_icon_box}>
-            <svg
+            <svg 
               xmlns="http://www.w3.org/2000/svg"
               width="46"
               height="46"

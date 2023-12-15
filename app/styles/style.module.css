@@ -8,14 +8,24 @@
   height: 2px;
 } */
 
-/* .bi_nav_icon {
-margin-top: 0;
 
+
+/* 
+.sidebar_container { position: sticky; width: 100% ; height: auto;   overflow: hidden;justify-content: center;
+  backgr0
 } */
 
-
+ .bi_nav_icon {
+margin-top: 0;
+background-color: #c8c8c8;
+border-radius: 5px;
+ }
 .logo {  
   width: auto; height: auto;
+}
+
+.drop_menu .ant-dropdown {
+  margin-top: 200px;
 }
 
 .sidebar_ul {
@@ -24,8 +34,18 @@ margin-top: 0;
   background-color: #f9f9f9;
   margin: 10px ;
   padding: 24px;
-  height:auto;
+  height:fit-content;
+ transition: all .5s ease;
 }
+
+.sidebar_ul:focus {
+  height: 800px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
 .sidebar_li {
   padding: 10px 0;
   font-size: 18px;
@@ -1266,7 +1286,9 @@ display: inline-flex;
 
 
 
-
+.sidebar_ul .ant-dropdown-menu {
+margin-top: 270px; 
+}
 
 
 

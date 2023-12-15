@@ -20,7 +20,6 @@ const items = [
           height={46}
           alt=""
         />
-
         <Link href="/design">Design</Link>
       </div>
     ),
@@ -72,12 +71,14 @@ const items = [
   },
 ]; 
 const Dropservice = () => (
-  <Space direction="vertical">
-    <Space wrap>
-      <Dropdown
+  <Space >
+   
+      <Dropdown 
+      className={styles.drop_menu}
         menu={{
           items,
         }}
+        trigger={['click']}
         placement="bottom"
       >
         <Button className={styles.service_drop_btn}>
@@ -89,15 +90,17 @@ const Dropservice = () => (
             fill="currentColor"
             className={styles.bi_dropicon}
             viewBox="0 0 16 16"
+            direction="vertical"
           >
             <path
               fillRule="evenodd"
               d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
             />
           </svg>{" "}
+          
         </Button>
       </Dropdown>
     </Space>
-  </Space>
 );
+
 export default Dropservice;

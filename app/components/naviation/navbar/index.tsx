@@ -22,18 +22,20 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               type="button"
               className="inline-flex items-center md:hidden"
               onClick={toggle}
+            > 
+              <svg 
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="46"
+              fill="  #2e8096"
+              className={styles.bi_nav_icon}
+              viewBox="0 0 16 16"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="#000"
-                  d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
-                />
-              </svg>
+              <path
+                d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0
+   1h-7a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
             </button>
             <ul className="hidden md:flex gap-x-10 text-black ">
               <li className={styles.nav_li} >

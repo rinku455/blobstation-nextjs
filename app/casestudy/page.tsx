@@ -1,5 +1,5 @@
 import React from "react";
-import CaseHero from "../case_pages/case_hero/case_hero";
+import CaseHero from "../casepages/case_hero/case_hero";
 
 const CaseStudy = () => {
   return <> 
