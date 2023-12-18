@@ -20,9 +20,9 @@ margin-top: 0;
 background-color: #c8c8c8;
 border-radius: 5px;
  }
-.logo {  
+/* .logo {  
   width: auto; height: auto;
-}
+} */
 
 .drop_menu .ant-dropdown {
   margin-top: 200px;
@@ -80,11 +80,11 @@ border-radius: 5px;
   margin: 0 auto;
 }
 
-.img_logo {
+/* .img_logo {
   width: 100%;
   max-width: 177px;
   min-height: 22px;
-} 
+}  */
 .header_sticky {position: fixed;}
 
 .navbar {  

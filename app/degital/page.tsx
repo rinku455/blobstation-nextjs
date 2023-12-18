@@ -142,7 +142,7 @@ const Degital = () => {
                 </div>
                 <div className={styles.video_box}>
                 <Image
-                    src="/images/vide3.svg"
+                    src="/images/case3.svg"
                     width={515}
                     height={257}
                     alt=""
@@ -186,7 +186,7 @@ const Degital = () => {
                 </div>
                 <div className={styles.video_box}>
                 <Image
-                    src="/images/video4.png"
+                    src="/images/case4.png"
                     width={515}
                     height={257}
                     alt=""

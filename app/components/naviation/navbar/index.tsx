@@ -3,9 +3,7 @@ import Link from "next/link";
 import Logo from "./Logo";
 import styles from "./../../../styles/style.module.css";
 import Button from "./Button";
-import { Dropdown } from "antd";
 import Dropservice from "../../../Drop_service/page";
-  // import Dropservice from "../../../Drop_service/page";
 
   
 

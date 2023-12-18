@@ -7,6 +7,7 @@ import Leader from "../about_us_pages/our_leader/page";
 import WorkWithUs from "../about_us_pages/work_with_us/page";
 import  Form  from "../contacts/page";
 import Footer from "../footer/page";
+import Different from "../about_us_pages/different_page/different";
 
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
   <OurStory/>
   <OurCore/>
   <Impression/>
-
+<Different/>
   <Leader/>
   <WorkWithUs/>
   <Form/>
