@@ -6,7 +6,6 @@ import Image from "next/image";
 const contentStyle = {
   margin: "0 auto",
   background: "#fff",
-  item: "2",
 };
 
 const Client = () => {

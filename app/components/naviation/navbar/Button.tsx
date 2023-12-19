@@ -7,7 +7,7 @@ const Button = () => {
     <div>
       {
         <button className={styles.talkbtn}>
-          <Link href="/contacts">Let's talk</Link>&apos;
+          <Link href="/contacts">Let's talk</Link>
         </button>
       }
     </div>

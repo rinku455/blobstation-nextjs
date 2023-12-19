@@ -1,7 +1,7 @@
 import Navigation from "./components/naviation";
 import "./globals.css";
 import { Inter } from "next/font/google";
-
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap" rel="stylesheet"/>
 
 const inter = Inter({ subsets: ["latin"] });
 

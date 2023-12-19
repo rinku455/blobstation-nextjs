@@ -8,6 +8,7 @@ import WorkWithUs from "../about_us_pages/work_with_us/page";
 import  Form  from "../contacts/page";
 import Footer from "../footer/page";
 import Different from "../about_us_pages/different_page/different";
+import ExpertTeam from "../about_us_pages/experts_team/page";
 
 
 const About = () => {
@@ -18,6 +19,7 @@ const About = () => {
   <Impression/>
 <Different/>
   <Leader/>
+  <ExpertTeam/>
   <WorkWithUs/>
   <Form/>
   <Footer/>

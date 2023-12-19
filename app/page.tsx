@@ -16,6 +16,8 @@ import Client from "./client /page";
 import Solution from "./solution/page";
 import Image from "next/image";
 
+
+
 export default function Home() {
   return (
     <>

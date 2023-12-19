@@ -27,7 +27,7 @@ const Trust = () => {
               <li>
                 {" "}
                 <Image
-                  className={styles.fluid}
+                  className={styles.trust_Img2}
                   src="/images/trust-im-2.svg"
                   width={79}
                   height={93}
@@ -38,7 +38,7 @@ const Trust = () => {
               <li>
                 {" "}
                 <Image
-               className={styles.fluid}
+               className={styles.trust_Img3}
                   src="/images/banner-im-2.svg"
                   width={237}
                   height={56}
@@ -69,7 +69,7 @@ const Trust = () => {
               <li>
                 {" "}
                 <Image
-                  className={styles.fluid}
+                  className={styles.trust_Img5}
                   src="/images/trust-im-5.png"
                   width={263}
                   height={48}

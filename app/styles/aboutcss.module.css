@@ -1,3 +1,5 @@
+
+
 .container {
   max-width: 1403px;
   padding: 0 42px;
@@ -301,10 +303,7 @@ width: 100%;
 }
 
 .different_Img_box_2{
-max-width: 410px;
-    min-height: 130px;
-    width: 100%;
-    height: 100%;
+  height: 130px;
     border-radius: 18px;
     overflow: hidden;
     align-items: center;
@@ -405,10 +404,88 @@ max-width: 410px;
   padding-right: 10px;
 }
 
-
-
-
 /* *************************   leader end *********************** */
+
+
+
+/* *************************   Expert team start *********************** */
+
+.expert_wrapper {
+padding: 50px 0; 
+margin: 0;
+}
+.expert_wrapper h1 {
+  margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+}
+.expert_wrapper p {
+  font-size: 20px;    line-height: 32px;    margin-top: 12px;
+  text-align: center;
+}
+
+.expert_main_box {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+.expert_main_box ul {
+margin: 0; 
+padding: 0;
+align-items: center;
+}
+.expert_main_box ul li {
+  margin: 10px 10px 0 0 ;
+  padding: 0;
+}
+
+.expert_box {
+  padding: 21px 30px;
+  margin-top: 20px;
+  max-width: 255px;
+  height: 300px;
+  background-color: #f9f9f9;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.expert_Img {margin: 0 auto;
+}
+
+.expert_Img_2 { display: none;
+  margin: 0 auto;
+}
+
+.expert_box:hover .expert_Img {
+  display: none;
+}
+.expert_box:hover .expert_Img_2 {
+  display: block;
+}
+
+.space {
+  padding: 16px 0 ;
+}
+
+.expert_box h2{
+margin: 4px 0 8px;
+font-size: 20px;
+font-weight: 700;
+}
+
+.expert_box h3{
+font-size: 16px;
+line-height: 32px;
+padding: 0;
+margin: 0;
+}
+
+
+
+/* *************************   Expert team end *********************** */
 
 
 
@@ -618,7 +695,7 @@ line-height: 52px;
   }
   
   .different_Img_box_2{
-  height: 23vh;
+  height: 25vw;
   width: 100%;
   }
   
@@ -683,6 +760,9 @@ line-height: 52px;
     margin: 10px ;
     height: fit-content;
 } 
+
+
+
 
 
 
