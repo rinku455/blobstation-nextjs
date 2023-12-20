@@ -204,7 +204,7 @@
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700; 
   line-height: 32px;
   color: #2e8096;
 }
@@ -383,11 +383,12 @@
   width: 100%;
   margin: 10px 0;
   color: gray;
+  
 }
 
-.ant-select-selector {
+.select .ant-select-selector {
   border: none !important;
-  background: #f9f9f9;
+  background: #f9f9f9;  
   font-size: 18px;
 }
 
@@ -410,7 +411,7 @@
   padding-inline-end: 0px;
 }
 
-.check span .ant-checkbox-inner {
+.check span .ant_checkbox {
   border: 3px solid black;
 }
 

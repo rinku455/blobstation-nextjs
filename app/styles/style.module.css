@@ -19,7 +19,7 @@
   backgr0
 } */
 
- .bi_nav_icon {
+ .bi_nav_icon { 
 margin-top: 0;
 background-color: #c8c8c8;
 border-radius: 5px;
@@ -178,7 +178,7 @@ border-radius: 5px;
   float: left;
   max-width: 50%;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 150px;
   margin: 0 20px 0 0;
 }
 

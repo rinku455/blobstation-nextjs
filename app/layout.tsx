@@ -1,9 +1,13 @@
 import Navigation from "./components/naviation";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Urbanist } from "next/font/google";
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap" rel="stylesheet"/>
 
-const inter = Inter({ subsets: ["latin"] });
+const urbanist = Urbanist({ subsets: ["latin"] });
+
+
+// import localFont from '@next/font/local'
+// const  Santoshi =localFont({  src: ('../fonts/Satoshi-VariableItalic.woff') })
 
 export const metadata = {
   title: "my App",
@@ -17,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={urbanist.className}>
         <Navigation />
         {children}
       </body>

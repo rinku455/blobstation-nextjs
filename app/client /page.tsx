@@ -685,7 +685,7 @@ const Client = () => {
                 </div>
               </div>
             </Carousel>
-            <div className={styles.side_btn_box}>
+            {/* <div className={styles.side_btn_box}>
               <div className={styles.side_btn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -701,7 +701,7 @@ const Client = () => {
                   />
                 </svg>
               </div>
-
+    
               <div className={styles.side_btn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -717,7 +717,7 @@ const Client = () => {
                   />
                 </svg>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

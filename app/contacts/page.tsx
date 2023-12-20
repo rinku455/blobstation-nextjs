@@ -14,7 +14,7 @@ const Form = () => {
       {<div className={styles.form_wrapper}>
         <div className={styles.container}>
           <Row className={styles.form_row}>
-            <Col
+            <Col 
               xs={{ span: 24 }}
               sm={{ span: 24 }}
               md={{ span: 12 }}
@@ -41,10 +41,10 @@ const Form = () => {
               <Input className={styles.form} placeholder="Phone Number" />
            
               <Select  className={styles.select} defaultValue="Company Type">
-                <option value="volvo">Company Type</option>
-                <option value="saab">Startup</option>
-                <option value="opel">SEM</option>
-                <option value="audi">Enterprise</option>
+                <option   value="Company">Company Type</option>
+                <option value="Startup">Startup</option>
+                <option value="SEM">SEM</option>
+                <option value="Enterprise">Enterprise</option>
               </Select>
              
               <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
