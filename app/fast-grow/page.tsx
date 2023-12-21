@@ -109,7 +109,7 @@ const FastGrow = () => {
                 <div className={styles.gro_Image_box}>
 
                 <Image
-                          className={styles.Image}
+                          className={styles.fast_Img}
                           src="/images/growth.png"
                           width={426}
                           height={426}

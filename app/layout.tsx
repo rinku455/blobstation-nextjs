@@ -1,9 +1,9 @@
 import Navigation from "./components/naviation";
 import "./globals.css";
-import { Urbanist } from "next/font/google";
+import { Jost } from "next/font/google";
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap" rel="stylesheet"/>
 
-const urbanist = Urbanist({ subsets: ["latin"] });
+const jost= Jost ({ subsets: ["latin"] });
 
 
 // import localFont from '@next/font/local'
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body className={jost.className}>
         <Navigation />
         {children}
       </body>

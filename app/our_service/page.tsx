@@ -17,7 +17,7 @@ const OurServices = () => {
                 <p>From custom software development to providing dedicated teams,
                     our team will help you achieve your goal</p>
         </div>
-        <Row>
+        <Row className={styles.service_row}>
           <Col
             xs={{ span: 24 }}
             sm={{ span: 24 }}
