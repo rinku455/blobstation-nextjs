@@ -16,8 +16,6 @@ import Client from "./client /page";
 import Solution from "./solution/page";
 import Image from "next/image";
 
-
-
 export default function Home() {
   return (
     <>
@@ -52,60 +50,159 @@ export default function Home() {
                     height={42}
                     alt=""
                   />
-
-                
                 </li>
                 <li>
-
-                <Image
+                  <Image
                     className={styles.fluid}
                     src="/images/banner-im-2.svg"
                     width={176}
                     height={42}
                     alt=""
                   />
-                  
                 </li>
                 <li>
                   <a href="#">
-
-                  <Image
-                    className={styles.fluid}
-                    src="/images/banner-im-3.svg"
-                    width={178}
-                    height={33}
-                    alt=""
-                  />
-
-                    
+                    <Image
+                      className={styles.fluid}
+                      src="/images/banner-im-3.svg"
+                      width={178}
+                      height={33}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
                   <a href="#">
-
-                  <Image
-                    className={styles.fluid}
-                    src="/images/banner-im-4.svg"
-                    width={152}
-                    height={60}
-                    alt=""
-                  />
-
-                    
+                    <Image
+                      className={styles.fluid}
+                      src="/images/banner-im-4.svg"
+                      width={152}
+                      height={60}
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
+
+          {/* <div className={styles.banner_right}>
+            <div className={styles.banner_top}></div>
+            <div className={styles.banner_bottom}></div>
+            <ul className={styles.banner_parent}>
+              <li>
+              <Marquee  direction="down">
+                <ul className={styles.banner_child}>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner1.JPG"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner2.JPG"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner3.JPG "
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                </ul>
+                </Marquee>
+              </li>
+              <li>
+                <ul className={styles.banner_child}>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner2-1.png"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner2-2.png"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner2-3.webp"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </li>
+              <li className={styles.last}>
+                <ul className={styles.banner_last}>
+                  <li>
+                    <Image
+                      className={styles.img}
+                      src="/images/banner3-1.webp"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.img}
+                      src="/images/banner3-2.webp"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.pic}
+                      src="/images/banner3-3.webp"
+                      width={174}
+                      height={300}
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div> */}
+
           <div className={styles.hero_right}>
             <ul className={styles.hero_parent}>
-              <li>
+
+            <div className={styles.top_right}></div>
+        <div className={styles.bottom_right}></div>
+
+
+              <li className={styles.hero_first_li}>
+
                 <ul className={styles.hero_child}>
                   <li>
                 
 
                     <Image
-                    className={styles.image}
+                    className={styles.pic}
                     src="/images/banner1.JPG"
                     width={174}
                     height={300}
@@ -117,7 +214,7 @@ export default function Home() {
                 
 
                     <Image
-                    className={styles.image}
+                    className={styles.pic}
                     src="/images/banner2.JPG"
                     width={174}
                     height={300}
@@ -127,7 +224,7 @@ export default function Home() {
                   </li>
                   {/* <li>
                     <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner3.JPG "
                     width={174}
                     height={300}
@@ -142,7 +239,7 @@ export default function Home() {
                   <li>
 
                   <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner2-1.png"
                     width={174}
                     height={300}
@@ -153,7 +250,7 @@ export default function Home() {
                   </li>
                   <li>
                   <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner2-2.png"
                     width={174}
                     height={300}
@@ -164,7 +261,7 @@ export default function Home() {
                   </li>
                   {/* <li>
                      <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner2-3.webp"
                     width={174}
                     height={300}
@@ -177,7 +274,7 @@ export default function Home() {
                 <ul className={styles.hero_last}>
                   <li>
                   <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner3-1.webp"
                     width={174}
                     height={300}
@@ -187,7 +284,7 @@ export default function Home() {
                   </li>
                   <li>
                   <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner3-2.webp"
                     width={174}
                     height={300}
@@ -197,19 +294,19 @@ export default function Home() {
                   </li>
                   {/* <li>
                    <Image
-                  className={styles.image}
+                  className={styles.pic}
                     src="/images/banner3-3.webp"
                     width={174}
                     height={300}
                     alt=""
                   />
                       
-                    </li>
-                  */}
+                    </li> */}
+                 
                 </ul>
               </li>
             </ul>
-          </div>
+          </div> 
         </div>
       </div>
 
