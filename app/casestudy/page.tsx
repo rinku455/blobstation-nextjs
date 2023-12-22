@@ -11,4 +11,4 @@ const CaseStudy = () => {
   </>
 };
 
-export default CaseStudy;
+export default CaseStudy; 

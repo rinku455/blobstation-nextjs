@@ -6,8 +6,8 @@ import { Jost } from "next/font/google";
 const jost= Jost ({ subsets: ["latin"] });
 
 
-// import localFont from '@next/font/local'
-// const  Santoshi =localFont({  src: ('../fonts/Satoshi-VariableItalic.woff') })
+// import myApp from 'next/font/local'
+// const  Santoshi = myApp({ src: (  '../../src/fonts/pages') })
 
 export const metadata = {
   title: "my App",

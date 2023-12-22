@@ -48,7 +48,7 @@ const CaseHero = () => {
                       Add a wide range of impressive effects to your photo with
                       features that go beyond a standard online photo editor.
                     </p>
-                    <Link href="/case_index/">
+                    <Link href="/case_Inner_pages/case_inpixio">
                       <button className={styles.read_btn4}>
                         {" "}
                         Read more
@@ -90,7 +90,7 @@ const CaseHero = () => {
                     Create faxes from any files with a couple of taps and send
                     them across the world in seconds
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_fax">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more

@@ -3,7 +3,7 @@
 .container {
     max-width: 1403px;
     padding: 0 42px;
-    width: 100%;
+    width: 100%; 
     margin: 0 auto;
   }
   
@@ -68,7 +68,13 @@
     max-width: 100%;
     margin: 0 auto;
   }
-  
+  .container_fluid2 {
+    max-width: 1403px;
+    padding:    0px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 
 
 
@@ -701,10 +707,128 @@ padding: 100px 0 50px 0;
   line-height: 28px;
 }
 
-
-
-
 /* *****************case page 2 end ************************ */
+
+
+/* *****************case Inner pages start ************************ */
+
+
+/* *********************inpix_hero start****************** */
+
+
+.inpix_hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.inpix_hero h1{
+  color: #4e87c1;font-size: 42px;    margin-top: 20px;
+  margin-bottom: 10px;    line-height: 56px;    font-weight: 600;
+}
+
+.inpix_hero p{padding: 0;    margin-bottom: 10px;
+  font-size: 18px;    line-height: 28px;
+  font-weight: 500;max-width: 779px; width: 100%;
+}
+
+.inpix_hero h2{    margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #017392;
+
+}
+
+
+.buttons_design {
+  grid-column-gap: 6px;
+  grid-row-gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  margin: 0 0 32px 0; 
+}
+
+.design_btn {
+  width: auto;
+  height: 36px;
+  color: #fff;
+  background-color: #2e8096;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+}
+
+
+
+.inpix_slider_box {
+  padding: 30px 0; margin: 0;position: relative;
+}
+.inpix_slider_left {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 2;
+  background-image: linear-gradient(90deg,#fff 5%,rgba(255,255,255,0));
+}
+
+.inpix_slider_right {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 2;
+  background-image: linear-gradient(275deg,#fff 5%,rgba(255,255,255,0));
+}
+
+
+
+.inpix_slider_box  ul {
+display: flex;
+padding: 0;margin: 0;  
+}
+
+.inpix_slider_box  ul li {
+  margin: 0 20px;
+width: 120px;
+height: 120px;
+border: 1px solid #f0f0f0;
+border-radius: 16px;
+text-align: center;
+align-items: center;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+
+/* *********************inpix_hero end****************** */
+
+
+
+
+/* *****************case Inner pages end ************************ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -732,8 +856,6 @@ padding: 100px 0 50px 0;
 .case_main2_4 {display: block; padding: 50px 0 0 0 ;  }
 .case_main2_5 {display: block; padding: 50px 0 0 0 ;  }
 
-
-
 .case_left {float: none; max-width: 100% ; 
   padding: 0 0 0px 50px;}
 .case_right {float: none; max-width: 100%;  ;}
@@ -749,6 +871,12 @@ padding: 100px 0 50px 0;
 .case_main {display: block;}
 .case_left {width: 100%; max-width: 100%;}
 .case_text1 {max-width: 100%;; width: 100%;}
+
+
+.inpix_hero h1{    margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 56px;}
 
 }
 

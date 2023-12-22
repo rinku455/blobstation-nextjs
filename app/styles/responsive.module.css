@@ -372,6 +372,10 @@
   color: gray;
 }
 
+
+
+
+
 .select {
   min-height: 60px;
   background-color: #f9f9f9;
@@ -382,23 +386,13 @@
   line-height: 25px;
   width: 100%;
   margin: 10px 0;
-  color: gray;
+  color: #5e6062;
   
 }
 
-.select .ant_select_selector {
-  border: none !important;
-  background: #f9f9f9;  
-  font-size: 18px;
-}
 
-.carselactionselector .carselactionselector-selector {
-  border: none !important;
-  background: #f9f9f9 !important;
-  font-size: 18px !important;
-}
 
-.check {
+.check { 
   padding-left: 0;
   padding-right: 0;
   font-size: 16px;
@@ -675,6 +669,8 @@
   .select {
     font-size: 14px;
     margin: 5px 0;
+    padding: 12px;
+
   }
   .textarea {
     font-size: 14px;

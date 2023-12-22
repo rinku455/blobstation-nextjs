@@ -61,7 +61,7 @@ width: 100%;
   flex-wrap: wrap;
   align-items: center;
   display: flex;
-  margin: 32px 0;
+  margin: 32px 0; 
 }
 
 .design_btn {
@@ -495,7 +495,7 @@ padding: 0;margin: 0 auto;display: block;
 
 
 .expert_main_box ul {
-margin: 0; 
+margin: 0;  
 padding: 0;
 
 }

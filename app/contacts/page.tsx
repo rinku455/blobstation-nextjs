@@ -39,8 +39,16 @@ const Form = () => {
 
               <Input className={styles.form} placeholder="Email address" />
               <Input className={styles.form} placeholder="Phone Number" />
-           
-              {/* <Select  className={styles.select} defaultValue="Company Type">
+             
+    <select className={styles.select}>
+    <option value="0">Company Type:</option>
+    <option value="1">Startup</option>
+    <option value="2">SEM</option>
+    <option value="3">Enterprise</option>
+  </select>
+ 
+
+              {/* <Select  ant-select-selector className={styles.select} defaultValue="Company Type">
                 <option   value="Company">Company Type</option>
                 <option value="Startup">Startup</option>
                 <option value="SEM">SEM</option>
@@ -49,6 +57,7 @@ const Form = () => {
              
               <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
               <ul>
+                
                   <li>
                   <Checkbox className={styles.check}>Design</Checkbox>
                 </li>

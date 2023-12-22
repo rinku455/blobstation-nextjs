@@ -401,15 +401,8 @@ animation: first_li 10s infinite  alternate;
 
 
 
-.service_content1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 376px;
-  padding: 20px;
-}
 
-.service_content1 h1 {
+.service_content h1 {
   color: #fff;
   padding: 10px 0px;
   margin: 0;
@@ -417,7 +410,7 @@ animation: first_li 10s infinite  alternate;
   font-weight: 800;
 }
 
-.service_content1 p {
+.service_content p {
   color: #fff;
   padding: 10px 0px;
   margin: 0;
@@ -425,45 +418,45 @@ animation: first_li 10s infinite  alternate;
   font-size: 18px;
 }
 
-.service_content1 .bi {
+.service_content .bi {
   color: #fff;
   padding: 10px 0px;
   margin: 0;
   font-size: 30px;
 }
 
-.service_box1 {
-  background-image: linear-gradient(rgba(13, 51, 62, 0), #2e7f95) 
-  url('../../public//images/service1.png') ;
-  background-size: auto, cover;
+.service_main_box1 {
+  position: relative; overflow: hidden;
   min-height: 376px;
   border-radius: 5px;
   margin: 8px 10px;
+  width: fit-content;
+}
+.service_box {
+  position: relative;
+  margin-top: 30px;
+  max-height: 376px;
+  margin:  8px ;
 }
 
-.service_box2 {
-  background-image: linear-gradient(rgba(13, 51, 62, 0), #2e7f95);
-  background-size: auto, cover;
-  min-height: 376px;
+.service_main_box1_Img {
+  width: 100%;
+  max-width: 100%;
   border-radius: 5px;
-  margin:  8px 10px;
+  max-height: 376px;
+  object-fit: cover;
 }
 
-.service_box3 {
+.service_content {
   background-image: linear-gradient(rgba(13, 51, 62, 0), #2e7f95);
-  background-size: cover;
-  min-height: 376px;
-  border-radius: 5px;
-  margin: 8px 10px;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+border-radius: 5px;
+padding: 0 20px;
 }
 
-.service_box4 {
-  background-image: linear-gradient(rgba(13, 51, 62, 0), #2e7f95);
-  background-size: cover;
-  min-height: 376px;
-  border-radius: 5px;
-  margin: 8px 10px;
-}
 
 /*************** service wrapper end*************/
 
