@@ -40,16 +40,16 @@ const Form = () => {
               <Input className={styles.form} placeholder="Email address" />
               <Input className={styles.form} placeholder="Phone Number" />
            
-              <Select  className={styles.select} defaultValue="Company Type">
+              {/* <Select  className={styles.select} defaultValue="Company Type">
                 <option   value="Company">Company Type</option>
                 <option value="Startup">Startup</option>
                 <option value="SEM">SEM</option>
                 <option value="Enterprise">Enterprise</option>
-              </Select>
+              </Select> */}
              
               <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
               <ul>
-                <li>
+                  <li>
                   <Checkbox className={styles.check}>Design</Checkbox>
                 </li>
                 <li>
