@@ -3,7 +3,6 @@ import { Carousel } from "antd";
 import styles from "../../styles/aboutcss.module.css";
 import Image from "next/image";
 
-
 const Impression = () => {
   return (
     <>
@@ -17,7 +16,8 @@ const Impression = () => {
             corner. Immerse yourself in the hub of innovation, where
             productivity meets passion.
           </p>
-          <Carousel autoplay>
+          <div className={styles.space2}></div>
+          <Carousel autoplay slidesToShow={2}>
             <div className={styles.office_box}>
               <Image
                 className={styles.office}
@@ -68,6 +68,54 @@ const Impression = () => {
               <Image
                 className={styles.office}
                 src="/images/office-6.png"
+                width={820}
+                height={566}
+                alt=""
+              />
+            </div>
+
+            <div className={styles.office_box}>
+              <Image
+                className={styles.office}
+                src="/images/office-7.png"
+                width={820}
+                height={566}
+                alt=""
+              />
+            </div>
+
+            <div className={styles.office_box}>
+              <Image
+                className={styles.office}
+                src="/images/office-8.png"
+                width={820}
+                height={566}
+                alt=""
+              />
+            </div>
+
+            <div className={styles.office_box}>
+              <Image
+                className={styles.office}
+                src="/images/office-9.png"
+                width={820}
+                height={566}
+                alt=""
+              />
+            </div>
+            <div className={styles.office_box}>
+              <Image
+                className={styles.office}
+                src="/images/office-10.png"
+                width={820}
+                height={566}
+                alt=""
+              />
+            </div>
+            <div className={styles.office_box}>
+              <Image
+                className={styles.office}
+                src="/images/office-11.png"
                 width={820}
                 height={566}
                 alt=""

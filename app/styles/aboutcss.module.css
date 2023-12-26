@@ -21,12 +21,17 @@
   margin: 0 auto;
 }
 
+
 .office_box {
-width: 100%;
+ display: flex; justify-content: space-between; padding: 0; margin: 0;padding:0 20px;
 }
 
 .office {
-  border-radius: 18px;
+  border-radius: 18px; 
+}
+
+.space2 {
+  margin-top: 64px;
 }
 
 /* ************************* Our Story  hero start*********************** */
@@ -154,7 +159,7 @@ width: 100%;
 /* ************************* Our Story  end*********************** */
 
 .our_Core {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 .core_heading h2 {
@@ -182,7 +187,7 @@ width: 100%;
   margin-bottom: 19px;
 }
 .core_box {
-  padding: 40px 16px;
+  padding: 40px  31px 0 16px;
 }
 
 .core_box h3 {
@@ -240,7 +245,14 @@ width: 100%;
   margin: 0 auto;
   padding-top: 12px;
 }
+.carousel_case > .slick_list > .slick_track > .slick-slide > .slick-cloned[data-index="2"] {
+  width: 10%;
+ 
+}
 
+/* .carousel_case > {
+overflow-x: hidden;
+} */
 
 
 /* *************************   different start *********************** */

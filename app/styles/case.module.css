@@ -807,6 +807,65 @@ display: flex;
 justify-content: center;
 }
 
+
+
+.client_bg_wrapper h2{
+  margin: 0;
+  font-size: 28px;
+  color: #017392;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.client_bg_wrapper p{
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.client_space {
+  padding-left: 46px;
+  margin: 0;
+}
+
+.client_bg_wrapper {
+padding: 50px 0;
+}
+
+.client_ul { height: fit-content;
+  list-style: none;
+  padding: 0 0 0 50px;
+  margin: 50px 0 0 0 ;
+  border-left: 1px solid #e0e0e0;
+  display: inline-block;
+}
+
+.client_ul li {
+  padding: 0 0 0px 0;
+  margin: 0;
+}
+
+.client_ul li h3 {
+  color: #2e8096;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.client_ul li p {
+  padding: 0 0 0px 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.41px;
+  margin-bottom: 32px;
+}
+
+.client_ul li  .last_p{
+  padding: 0 0 0px 0;margin: 0;
+}
+
 /* *********************inpix_hero end****************** */
 
 
@@ -837,7 +896,9 @@ justify-content: center;
   .case_hero h1 {
     font-size: 30px;
   }
+.client_space {  margin-left:0px;
 
+}
 
 }
 
@@ -883,6 +944,12 @@ justify-content: center;
 @media (max-width: 768px) {
 
 .case_left {float: none; max-width: 100%; padding: 0 21px;}
+
+.client_ul { 
+  padding: 0 0 0 0px;
+  margin: 50px 0 0 0 ;
+  border-left: none;
+}
 }
 
 @media (max-width: 576px) {
