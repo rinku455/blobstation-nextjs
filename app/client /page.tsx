@@ -18,7 +18,7 @@ const Client = () => {
             Clients Speak,<span> Excellence Echoes</span>
           </h1>
           <div className={styles.container_fluid}>
-            <Carousel className={styles.carousel_btn} autoplay>
+            <Carousel className={styles.carousel_btn}  slidesToShow={3} autoplay>
               <div className={styles.carousel_box}>
                 <div className={styles.client_box} style={contentStyle}>
                   <h2>VNP Portal</h2>

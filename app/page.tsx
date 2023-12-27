@@ -15,7 +15,8 @@ import Form from "./contacts/page";
 import Client from "./client /page";
 import Solution from "./solution/page";
 import Image from "next/image";
-
+// import "./fonts.css";
+// import "./globals.css"
 export default function Home() {
   return (
     <>
@@ -24,7 +25,7 @@ export default function Home() {
           <div className={styles.hero_left}>
             <div className={styles.hero_content}>
               <h1 className={styles.hero_left_h1}>
-                Your Trusted Software Development Partner
+                Your Trusted Software Development Partner 
               </h1>
               <p className={styles.hero_left_p}>
                 Building technology solutions for industry leaders and

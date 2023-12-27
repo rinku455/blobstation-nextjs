@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/satoshi-bold.ttf') format('truetype'); /* Adjust the file path accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Satoshi', sans-serif; /* Use the 'Satoshi' font for the entire body */
+  }

@@ -1,7 +1,6 @@
 
 
 
-
 /* 
 .close_icon_box  {
   width: 48px;
@@ -187,7 +186,7 @@ border-radius: 5px;
   margin-bottom: 10px;
   font-size: 41px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 60px; 
 }
 .hero_left_p {
   font-size: 24px;

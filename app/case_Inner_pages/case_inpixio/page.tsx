@@ -10,9 +10,9 @@ const Inpixo = () => {
     <>
       <div className={styles.inpix_hero}>
         <div className={styles.container}>
-          <h1>inPixio AI Photo Editor</h1>
-          <p>Edit your photos like a pro with AI Photo Editor !</p>
-          <p>
+          <h1 >inPixio AI Photo Editor</h1>
+          <p >Edit your photos like a pro with AI Photo Editor !</p>
+          <p className={styles.inpix_hero_p}>
             Add a wide range of impressive effects to your photo with features
             that go beyond a standard online photo editor.
           </p>
@@ -122,7 +122,7 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12}}
+                md={{ span: 12 }}
                 lg={{ span: 14 }}
                 xl={{ span: 15 }}
               >
@@ -141,30 +141,54 @@ const Inpixo = () => {
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
                 md={{ span: 8 }}
-                lg={{ span: 8}}
+                lg={{ span: 8 }}
                 xl={{ span: 8 }}
-              > <ul className={styles.client_ul}>
-
-                        <li>
-                            <h3>Project </h3>
-                        </li>
-                        <li>
-                            <p>inPixio AI Photo Editor</p>
-                        </li>
-                        <li>
-                            <h3>Industry </h3>
-                        </li>
-                        <li>
-                            <p>Media & Entertainment</p>
-                        </li>
-                        <li>
-                            <h3> Years in Industry </h3>
-                        </li>
-                        <li><p className={styles.last_p} >10+ Years</p>
-                        </li>
-                    </ul>
-                    </Col>
+              >
+                {" "}
+                <ul className={styles.client_ul}>
+                  <li>
+                    <h3>Project </h3>
+                  </li>
+                  <li>
+                    <p>inPixio AI Photo Editor</p>
+                  </li>
+                  <li>
+                    <h3>Industry </h3>
+                  </li>
+                  <li>
+                    <p>Media & Entertainment</p>
+                  </li>
+                  <li>
+                    <h3> Years in Industry </h3>
+                  </li>
+                  <li>
+                    <p className={styles.last_p}>10+ Years</p>
+                  </li>
+                </ul>
+              </Col>
             </Row>
+          </div>
+          </div>
+
+          <div className={styles.opportunity_wrapper}>
+          <div className={styles.container}>
+            <h2>Opportunity</h2>
+            <h3>Empower Users to Elevate Their Photo Editing Skills</h3>
+            <p>
+              The primary opportunity presented by the inPixio AI Photo Editor
+              was to provide users with a comprehensive tool for photo editing
+              that harnessed the power of artificial intelligence (AI). The app
+              aimed to enable users to edit their photos like a professional,
+              going beyond the capabilities of traditional online photo editors.
+            </p>
+
+            <h2>Solution</h2>
+            <h3>inPixio AI Photo Editor: Redefining Photo Editing</h3>
+            <p>
+              The inPixio AI Photo Editor offers a comprehensive suite of
+              features to elevate photo editing. Here are five key features with
+              one-liner subheadings:
+            </p>
           </div>
         </div>
       </div>
