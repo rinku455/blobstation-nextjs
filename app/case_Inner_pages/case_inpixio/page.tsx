@@ -4,14 +4,17 @@ import Link from "next/link";
 import Image from "next/image";
 import { Row, Col } from "antd";
 import Marquee from "react-fast-marquee";
+import Footer from "../../footer/page";
+import OurServices from "../../our_service/page";
 
 const Inpixo = () => {
   return (
     <>
       <div className={styles.inpix_hero}>
+        
         <div className={styles.container}>
-          <h1 >inPixio AI Photo Editor</h1>
-          <p >Edit your photos like a pro with AI Photo Editor !</p>
+          <h1>inPixio AI Photo Editor</h1>
+          <p>Edit your photos like a pro with AI Photo Editor !</p>
           <p className={styles.inpix_hero_p}>
             Add a wide range of impressive effects to your photo with features
             that go beyond a standard online photo editor.
@@ -25,6 +28,7 @@ const Inpixo = () => {
             <div className={styles.design_btn}>Testing</div>
           </div>
         </div>
+
         <div className={styles.container_fluid2}>
           <div className={styles.inpix_slider_box}>
             <div className={styles.inpix_slider_left}></div>
@@ -168,9 +172,9 @@ const Inpixo = () => {
               </Col>
             </Row>
           </div>
-          </div>
+        </div>
 
-          <div className={styles.opportunity_wrapper}>
+        <div className={styles.opportunity_wrapper}>
           <div className={styles.container}>
             <h2>Opportunity</h2>
             <h3>Empower Users to Elevate Their Photo Editing Skills</h3>
@@ -191,7 +195,29 @@ const Inpixo = () => {
             </p>
           </div>
         </div>
+
+<div className={styles.details_wrapper}>
+  <div className={styles.container}>
+    
+  </div>
+</div>
+
+
+        <div className={styles.next_wrapper}>
+          <div className={styles.container}>
+            <h1>What's Next</h1>
+            <p>
+              "The inPixio AI Photo Editor exemplified the fusion of
+              cutting-edge technology and creative expression, offering users
+              the ability to edit their photos like professionals and push the
+              boundaries of their creativity."
+            </p>
+          </div>
+        </div>
       </div>
+
+      <OurServices />
+      <Footer />
     </>
   );
 };

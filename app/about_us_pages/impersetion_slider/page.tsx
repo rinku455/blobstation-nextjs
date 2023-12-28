@@ -8,6 +8,7 @@ const Impression = () => {
     <>
       <div className={styles.Impression_wrapper}>
         <div className={styles.container_fluid}>
+      
           <h1>
             Get an impression of <span> our office</span>
           </h1>
@@ -17,7 +18,7 @@ const Impression = () => {
             productivity meets passion.
           </p>
           <div className={styles.space2}></div>
-          <Carousel autoplay slidesToShow={2}>
+          <Carousel autoplay slidesToShow={2} >
             <div className={styles.office_box}>
               <Image
                 className={styles.office}
@@ -127,5 +128,6 @@ const Impression = () => {
     </>
   );
 };
+
 
 export default Impression;
