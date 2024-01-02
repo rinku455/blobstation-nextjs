@@ -11,7 +11,6 @@ const Inpixo = () => {
   return (
     <>
       <div className={styles.inpix_hero}>
-        
         <div className={styles.container}>
           <h1>inPixio AI Photo Editor</h1>
           <p>Edit your photos like a pro with AI Photo Editor !</p>
@@ -196,12 +195,55 @@ const Inpixo = () => {
           </div>
         </div>
 
-<div className={styles.details_wrapper}>
-  <div className={styles.container}>
-    
-  </div>
-</div>
+        <div className={styles.details_wrapper}>
+          <div className={styles.container}>
+            <div className={styles.detail_box}>
+              <div className={styles.detail_content}>
+                <ul className={styles.detail_ul}>
+                  <li className={styles.detail_coma_Img}>
+                    <Image
+                      src="/images/big-coma.svg"
+                      width={56}
+                      height={44}
+                      alt=""
+                    />
+                  </li>
 
+                  <li>
+                    <p>
+                      Developing the inPixio AI Photo Editor with Blobstation
+                      was a great experience. Their expertise and creative
+                      approach made it a smooth journey. The result is a
+                      fantastic app that we're proud of.
+                    </p>
+                    <h3>Maxime Lang</h3>
+                    <h3>Product Owner</h3>
+                  </li>
+
+                 
+                  <li className={styles.detail_coma_Img_sm}>
+                    <Image
+                      src="/images/small-coma.svg"
+                      width={21}
+                      height={16}
+                      alt=""
+                    />
+                  
+                  </li>
+                
+                </ul>
+              </div>
+              <div className={styles.detail_Img}>
+                <Image className={styles.detail_Img_space}
+                  src="/images/detail_inpix.png"
+                  width={202}
+                  height={236}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className={styles.next_wrapper}>
           <div className={styles.container}>
