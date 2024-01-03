@@ -6,23 +6,23 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const TrueMoso = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p>Turn any document into a fax from your phone & iPad</p>
+            <h1>True Moso</h1>
+            <p>Data driven business decisions for your next product</p>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              Make new product investment decisions with more confidence using
+              our product strategy tool
             </p>
 
             <h2>Provided Services</h2>
             <div className={styles.buttons_design}>
-              <div className={styles.design_btn}>Deployment</div>
-              <div className={styles.design_btn}> Mobile App</div>
+              <div className={styles.design_btn}>Desktop App</div>
+              <div className={styles.design_btn}> Deployment</div>
               <div className={styles.design_btn}>Strategic Consulting</div>
               <div className={styles.design_btn}>Testing</div>
             </div>
@@ -131,12 +131,12 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    The client, a forward-thinking company, recognized the
+                    inherent complexity in deciding whether to embark on new
+                    product development ventures. With a commitment to
+                    innovation, they aimed to develop a tool that would equip
+                    businesses with the insights needed to navigate this
+                    intricate decision-making process effectively.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +153,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p> True Moso</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p> Utilities</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>8+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,21 +176,24 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>
+                Elevate Product Investment Decision-Making with Data-Driven
+                Insights
+              </h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The primary opportunity presented by the True Moso App was to
+                revolutionize the way businesses approach product strategy. By
+                harnessing data-driven insights and leveraging a wide range of
+                critical inputs, the app aimed to empower companies to make
+                well-informed decisions regarding new product investments.
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>The True Moso App: Transforming Product Strategy</h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                The True Moso App was designed to address the multifaceted
+                nature of product strategy and investment decisions. Key
+                features of the app included:
               </p>
             </div>
           </div>
@@ -199,33 +202,36 @@ const Fax = () => {
             <div className={styles.container}>
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
+                    
                   <Image
-                    src="/images/fax-1.png"
+                    src="/images/true-1.mp4"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                  <h2>Comprehensive Data Inputs</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    The app allowed users to input a diverse array of data,
+                    including market research, competitor analysis, projected
+                    market growth, cost estimates, and more.
                   </p>
                 </div>
               </div>
 
               <div className={styles.Image_main_box2}>
                 <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+                  <h2>Advanced Analytics</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    Cutting-edge analytics and algorithms processed the data
+                    inputs, providing users with detailed insights and
+                    visualizations.
                   </p>
                 </div>
                 <div className={styles.Image_right_box2}>
                   <Image
-                    src="/images/fax-2.png"
+                    src="/images/true.mp4"
                     width={330}
                     height={495}
                     alt=""
@@ -236,32 +242,34 @@ const Fax = () => {
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
                   <Image
-                    src="/images/fax-3.png"
+                    src="/images/true-3.mp4"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                  <h2>Scenario Planning</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    Users could explore various scenarios and hypotheses to
+                    assess the potential outcomes of different product
+                    investment decisions.
                   </p>
                 </div>
               </div>
 
               <div className={styles.Image_main_box2}>
                 <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+                  <h2>Financial Modeling</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    The app incorporated robust financial modeling tools to
+                    calculate ROI and NPV, helping businesses gauge the
+                    financial viability of new products.
                   </p>
                 </div>
                 <div className={styles.Image_right_box2}>
                   <Image
-                    src="/images/fax-4.png"
+                    src="/images/true-4.mp4"
                     width={330}
                     height={495}
                     alt=""
@@ -271,17 +279,18 @@ const Fax = () => {
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
                   <Image
-                    src="/images/fax-5.png"
+                    src="/images/true-6.mp4"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
+                  <h2>Collaborative Workspace</h2>
                   <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
+                    Teams could collaborate within the app, sharing data,
+                    insights, and recommendations, streamlining the
+                    decision-making process.
                   </p>
                 </div>
               </div>
@@ -295,7 +304,7 @@ const Fax = () => {
                   <ul className={styles.detail_ul}>
                     <li className={styles.detail_coma_Img}>
                       <Image
-                        src="/images/fax-big-coma.svg"
+                        src="/images/big-coma.svg"
                         width={56}
                         height={44}
                         alt=""
@@ -304,25 +313,25 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        True Moso App was made possible by Blobstation's
+                        exceptional team. Their expertise and collaborative
+                        approach made development a breeze. We couldn't have
+                        asked for a better partner
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
-                        src="/images/fax-sm-coma.svg"
+                        src="/images/small-coma.svg"
                         width={21}
                         height={16}
                         alt=""
                       />
-                      <h3>Felix Lee</h3>
-                      <h3> Owner</h3>
+                      <h3>Siddharth</h3>
+                      <h3> Founder</h3>
                     </li>
 
                     <Image
                       className={styles.detail_coma_Img_sm}
-                      src="/images/fax-sm-coma.svg"
+                      src="/images/small-coma.svg"
                       width={21}
                       height={16}
                       alt=""
@@ -341,7 +350,7 @@ const Fax = () => {
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/true-detail.svg"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +364,10 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                “The True Moso App exemplified the transformative potential of
+                technology in facilitating data-driven decision-making,
+                revolutionizing the way businesses approach product strategy and
+                investment.”
               </p>
             </div>
           </div>
@@ -370,4 +380,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default TrueMoso;

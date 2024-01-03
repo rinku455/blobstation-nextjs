@@ -195,6 +195,87 @@ const Inpixo = () => {
           </div>
         </div>
 
+      <div className={styles.Images_wrapper}>
+        <div className={styles.container}>
+          <div className={styles.Image_main_box}>
+            <div className={styles.Image_left_box}>
+            <Image
+                      src="/images/inpx-1.png"
+                      width={330 }
+                      height={495}
+                      alt=""
+                    />
+            </div>
+            <div className={styles.Image_right_box}>
+              <h2>Background Magic</h2>
+              <p>Remove and replace backgrounds from photos, opening up creative possibilities for image manipulation.</p>
+              </div>
+          </div>
+
+          <div className={styles.Image_main_box2}>
+            <div className={styles.Image_left_box2}>
+            <h2>Custom Filters</h2>
+              <p>Add personalized filters to photos, enhancing visual aesthetics and achieving unique looks.</p>
+            </div>
+            <div className={styles.Image_right_box2}>
+            <Image
+                      src="/images/inpix-2.png"
+                      width={330 }
+                      height={495}
+                      alt=""
+                    />
+            
+              </div>
+          </div>
+
+          <div className={styles.Image_main_box}>
+            <div className={styles.Image_left_box}>
+            <Image
+                      src="/images/inpix-3.png"
+                      width={330 }
+                      height={495}
+                      alt=""
+                    />
+            </div>
+            <div className={styles.Image_right_box}>
+              <h2>Text and Stickers</h2>
+              <p>Incorporate text and stickers seamlessly into photos, adding a personal touch or playful elements.</p>
+              </div>
+          </div>
+
+          <div className={styles.Image_main_box2}>
+            <div className={styles.Image_left_box2}>
+            <h2>Precise Adjustments</h2>
+              <p>Fine-tune photo attributes such as brightness, contrast, hue, and more, achieving desired visual effects.</p>
+            </div>
+            <div className={styles.Image_right_box2}>
+            <Image
+                      src="/images/inpix-4.png"
+                      width={330 }
+                      height={495}
+                      alt=""
+                    />
+            
+              </div>
+          </div>
+          <div className={styles.Image_main_box}>
+            <div className={styles.Image_left_box}>
+            <Image
+                      src="/images/inpix-5.png"
+                      width={330 }
+                      height={495}
+                      alt=""
+                    />
+            </div>
+            <div className={styles.Image_right_box}>
+              <h2>Object Manipulation</h2>
+              <p>Reposition and rotate objects within photos, allowing for precise composition and creative editing.</p>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
         <div className={styles.details_wrapper}>
           <div className={styles.container}>
             <div className={styles.detail_box}>
@@ -216,25 +297,38 @@ const Inpixo = () => {
                       approach made it a smooth journey. The result is a
                       fantastic app that we're proud of.
                     </p>
+                    <Image
+                      className={styles.detail_coma_Img_sm_responsive}
+                      src="/images/small-coma.svg"
+                      width={21}
+                      height={16}
+                      alt=""
+                    />
                     <h3>Maxime Lang</h3>
                     <h3>Product Owner</h3>
                   </li>
 
-                 
-                  <li className={styles.detail_coma_Img_sm}>
+                  <Image
+                    className={styles.detail_coma_Img_sm}
+                    src="/images/small-coma.svg"
+                    width={21}
+                    height={16}
+                    alt=""
+                  />
+
+                  {/* <li className={styles.detail_coma_Img_sm}>
                     <Image
                       src="/images/small-coma.svg"
                       width={21}
                       height={16}
                       alt=""
                     />
-                  
-                  </li>
-                
+                  </li> */}
                 </ul>
               </div>
               <div className={styles.detail_Img}>
-                <Image className={styles.detail_Img_space}
+                <Image
+                  className={styles.detail_Img_space}
                   src="/images/detail_inpix.png"
                   width={202}
                   height={236}

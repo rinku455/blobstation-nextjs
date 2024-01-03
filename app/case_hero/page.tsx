@@ -131,7 +131,7 @@ const CaseHero = () => {
                     Make new product investment decisions with more confidence
                     using our product strategy tool
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_truemoso">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more
