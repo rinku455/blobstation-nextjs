@@ -173,7 +173,7 @@ const CaseHero = () => {
                     An application to streamline the process from business
                     customers ordering courier pickup & delivery services
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_Vnp">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more
@@ -217,7 +217,7 @@ const CaseHero = () => {
                     A web application to streamline the process starting from
                     finding the right program to get admitted into the school
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_root">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more

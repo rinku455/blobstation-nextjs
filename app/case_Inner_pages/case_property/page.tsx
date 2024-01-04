@@ -6,23 +6,25 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const Property = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p className={styles.inpix_hero_p}>Turn any document into a fax from your phone & iPad</p>
+            <h1>Batbatian Property Portal</h1>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              Put up available real estate properties online to potential buyers
+            </p>
+            <p className={styles.inpix_hero_p}>
+              A web portal where potential customers can checkout available
+              properties for sale or rent.
             </p>
 
             <h2>Provided Services</h2>
             <div className={styles.buttons_design}>
-              <div className={styles.design_btn}>Deployment</div>
-              <div className={styles.design_btn}> Mobile App</div>
+              <div className={styles.design_btn}>Desktop App</div>
+              <div className={styles.design_btn}> Deployment</div>
               <div className={styles.design_btn}>Strategic Consulting</div>
               <div className={styles.design_btn}>Testing</div>
             </div>
@@ -131,12 +133,12 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    Batbatian had solidified its position as a trusted real
+                    estate agency in the Montreal region, offering a wide range
+                    of property listings to prospective buyers and renters.
+                    However, the client realized the need to adapt to the
+                    changing market dynamics, with more homebuyers and renters
+                    turning to the internet to find their ideal properties.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +155,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p> Batbatian</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p> Real Estate</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>8+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,113 +178,89 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>Unlock the Power of Online Lead Generation</h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The primary opportunity presented to Batbatian was to leverage
+                their online presence for effective lead generation. The
+                objective was clear: to create a comprehensive property portal
+                that would serve as a one-stop destination for potential buyers
+                and renters, offering a wide range of real estate listings.
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>
+                The Batbatian Property Portal: Transforming Real Estate
+                Marketing
+              </h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                The solution to this challenge was the development of the
+                Batbatian Property Portal, a dynamic platform that transformed
+                the way real estate properties were presented to potential
+                buyers and renters. Key features of the portal included:
               </p>
             </div>
           </div>
 
-          <div className={styles.Images_wrapper}>
-            <div className={styles.container}>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-1.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+          <div className={styles.video_wrapper}>
+            <div className={styles.video_container}>
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/prop-1.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Property Listings</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    A vast database of real estate listings, complete with
+                    detailed property information, high-quality images, and
+                    virtual tours.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Interactive Maps</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    Integration of interactive maps for visualizing property
+                    locations and nearby amenities.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-2.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/prop-2.mp4" />
+                  </video>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-3.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/prop-3.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Lead Generation</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    Tools for capturing leads, enabling potential buyers and
+                    renters to express interest in properties they liked.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Agent Profiles</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    Profiles of Batbatian's experienced agents, fostering trust
+                    and transparency.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-4.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-5.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
-                </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
-                  <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
-                  </p>
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/prop-4.mp4" />
+                  </video>
                 </div>
               </div>
             </div>
@@ -304,10 +282,10 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        “Team has delivered a complex project with lot of 3rd
+                        party integration. From initial requirement gathering to
+                        all the way to delivery, process was very iterative and
+                        transparent. Really liked working with the team.”
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
@@ -316,8 +294,8 @@ const Fax = () => {
                         height={16}
                         alt=""
                       />
-                      <h3>Felix Lee</h3>
-                      <h4> Owner</h4>
+                      <h3>Pierre Batbatian</h3>
+                      <h4> Founder & CEO</h4>
                     </li>
 
                     <Image
@@ -341,7 +319,7 @@ const Fax = () => {
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/detail.property.png"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +333,10 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                “Blobstation wants to build landing pages to bring traffic via
+                paid promotion. These lead generation campaigns are mainly to
+                bring potential buyers to the site and spend time to go over
+                properties.”
               </p>
             </div>
           </div>
@@ -370,4 +349,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default Property;

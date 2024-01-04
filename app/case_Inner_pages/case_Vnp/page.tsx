@@ -6,25 +6,25 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const Vnp = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p className={styles.inpix_hero_p}>Turn any document into a fax from your phone & iPad</p>
+            <h1>VNP Portal</h1>
+            <p className={styles.inpix_hero_p}>Book courier pickup & delivery in under two minutes</p>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              An application to streamline the process from business customers
+              ordering courier pickup & delivery services
             </p>
 
             <h2>Provided Services</h2>
             <div className={styles.buttons_design}>
               <div className={styles.design_btn}>Deployment</div>
-              <div className={styles.design_btn}> Mobile App</div>
-              <div className={styles.design_btn}>Strategic Consulting</div>
+              <div className={styles.design_btn}> Strategic Consulting</div>
               <div className={styles.design_btn}>Testing</div>
+              <div className={styles.design_btn}>Web App</div>
             </div>
           </div>
 
@@ -131,12 +131,11 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    Vnp Transport, an established logistics provider, serviced a
+                    diverse clientele with varying courier needs. Recognizing
+                    the inefficiencies in their booking and dispatch processes,
+                    they sought to leverage technology to enhance customer
+                    satisfaction and operational efficiency.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +152,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p> VNP Transport Inc.</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p> Transport / Logistics</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>11+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,112 +175,106 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>
+                Streamline Courier Booking and Dispatch Processes for Enhanced
+                Efficiency
+              </h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The primary opportunity presented by the Vnp Transport Portal
+                was to revolutionize the courier booking and dispatch
+                procedures. The solution aimed to automate and simplify the
+                booking process for customers, optimize driver assignment, and
+                introduce dynamic pricing for greater accuracy and
+                competitiveness.
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>
+                Vnp Transport Portal: Optimizing Courier Booking and Dispatch
+              </h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                The Vnp Transport Portal introduced a range of features to
+                revolutionize courier booking and dispatch processes. Here are
+                key the aspects of the solution:
               </p>
             </div>
           </div>
 
-          <div className={styles.Images_wrapper}>
-            <div className={styles.container}>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-1.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+          <div className={styles.video_wrapper}>
+            <div className={styles.video_container}>
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/vnp-1.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Effortless Booking</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    Customers could book courier services in under two minutes,
+                    minimizing the time and effort required.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Real-time Quotations</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    Dynamic pricing calculations based on location, package
+                    type, weight, and quantity ensured accurate and competitive
+                    quotations.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-2.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/vnp-2.mp4" />
+                  </video>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-3.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/vnp-3.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Driver Assignment</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    A built-in system allowed for seamless assignment of pickup
+                    tasks to available drivers, optimizing resource allocation.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Order Tracking</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    Customers and drivers had real-time visibility into the
+                    status and location of courier orders, enhancing
+                    transparency.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-4.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/vnp-4.mp4" />
+                  </video>
                 </div>
               </div>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-5.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/vnp-5.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Automated Notifications</h2>
                   <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
+                    Automated notifications kept customers and drivers informed
+                    about order status updates, ensuring smooth coordination.
                   </p>
                 </div>
               </div>
@@ -304,10 +297,11 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        Being a non-technical person, it was an overwhelming
+                        experience working with the team at Blobstation. They
+                        understood the business and problem statement in depth
+                        and proposed a solution that could help in operations at
+                        VNP. The development cycle was very smooth.
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
@@ -316,8 +310,8 @@ const Fax = () => {
                         height={16}
                         alt=""
                       />
-                      <h3>Felix Lee</h3>
-                      <h4> Owner</h4>
+                      <h3>Nemish Mehta</h3>
+                      <h4> Founder</h4>
                     </li>
 
                     <Image
@@ -327,21 +321,12 @@ const Fax = () => {
                       height={16}
                       alt=""
                     />
-
-                    {/* <li className={styles.detail_coma_Img_sm}>
-                    <Image
-                      src="/images/small-coma.svg"
-                      width={21}
-                      height={16}
-                      alt=""
-                    />
-                  </li> */}
                   </ul>
                 </div>
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/vnp-details.svg"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +340,11 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                “The Vnp Transport Portal exemplified the potential of
+                technology in transforming traditional logistics processes,
+                providing customers with efficient and user-friendly courier
+                booking while optimizing resource allocation and pricing
+                accuracy.”
               </p>
             </div>
           </div>
@@ -370,4 +357,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default Vnp;

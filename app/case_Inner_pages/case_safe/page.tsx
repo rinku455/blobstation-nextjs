@@ -6,17 +6,17 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const SafePhoto = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p className={styles.inpix_hero_p}>Turn any document into a fax from your phone & iPad</p>
+            <h1>Safe Photos</h1>
+            <p className={styles.inpix_hero_p}>Protects your private photos, videos & documents</p>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              Easily secure personal files by locking them down with password
+              protection, FaceID and military-grade encryption
             </p>
 
             <h2>Provided Services</h2>
@@ -131,12 +131,13 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    The client, driven by a commitment to data privacy and
+                    security, identified a gap in the market for a comprehensive
+                    mobile application that offered top-tier protection for
+                    personal files. With the proliferation of mobile devices and
+                    the increasing importance of digital privacy, the client saw
+                    an opportunity to develop an app that met these critical
+                    needs.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +154,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p> Safe Photos</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p>Photos & Media</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>2+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,21 +177,21 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>Empower Users to Safeguard Their Digital Assets Securely</h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The primary opportunity presented by Safe Photos was to provide
+                individuals with a robust and user-friendly solution for
+                securing their private photos, videos, and documents. This app
+                aims to offer peace of mind through advanced security features
+                and military-grade encryption.
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>Safe Photos: A Fortified Digital Vault</h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                Safe Photos incorporated a range of features to ensure the
+                highest level of data security and privacy for users. Here are
+                five key features with one-liner subheadings:
               </p>
             </div>
           </div>
@@ -200,32 +201,32 @@ const Fax = () => {
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
                   <Image
-                    src="/images/fax-1.png"
+                    src="/images/safe-1.png"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                  <h2>Secure Folder Organization</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    Effortlessly organize and categorize your sensitive files
+                    into separate, secure folders.
                   </p>
                 </div>
               </div>
 
               <div className={styles.Image_main_box2}>
                 <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+                  <h2>Multi-Layered Protection</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    Enhanced security with password protection, Face ID, and
+                    military-grade encryption for each individual folder.
                   </p>
                 </div>
                 <div className={styles.Image_right_box2}>
                   <Image
-                    src="/images/fax-2.png"
+                    src="/images/safe-2.png"
                     width={330}
                     height={495}
                     alt=""
@@ -236,32 +237,33 @@ const Fax = () => {
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
                   <Image
-                    src="/images/fax-3.png"
+                    src="/images/safe-3.png"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                  <h2>Master Password</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    A master password at the app's core ensures an additional
+                    layer of security, preventing unauthorized access.
                   </p>
                 </div>
               </div>
 
               <div className={styles.Image_main_box2}>
                 <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+                  <h2>Quick Access</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    Conveniently access protected folders with Face ID or a
+                    password, keeping your personal files readily available to
+                    you.
                   </p>
                 </div>
                 <div className={styles.Image_right_box2}>
                   <Image
-                    src="/images/fax-4.png"
+                    src="/images/safe-4.png"
                     width={330}
                     height={495}
                     alt=""
@@ -271,17 +273,17 @@ const Fax = () => {
               <div className={styles.Image_main_box}>
                 <div className={styles.Image_left_box}>
                   <Image
-                    src="/images/fax-5.png"
+                    src="/images/safe-5.png"
                     width={330}
                     height={495}
                     alt=""
                   />
                 </div>
                 <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
+                  <h2>File Backup</h2>
                   <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
+                    Backup your important files directly within the app to
+                    ensure they're safe and easily recoverable.
                   </p>
                 </div>
               </div>
@@ -304,10 +306,10 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        Developing Safe Photos with Blobstation was a delight.
+                        Their attention to detail and commitment to security
+                        impressed us. The result is a top-notch app that our
+                        users trust.
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
@@ -341,7 +343,7 @@ const Fax = () => {
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/safe-details.png"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +357,10 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                “The Safe Photos mobile application exemplified the client's
+                commitment to digital privacy and data security, offering a
+                robust solution for individuals seeking to protect their private
+                photos, videos, and documents.”
               </p>
             </div>
           </div>
@@ -370,4 +373,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default SafePhoto;

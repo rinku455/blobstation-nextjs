@@ -6,23 +6,25 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const LemonJelly = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p className={styles.inpix_hero_p}>Turn any document into a fax from your phone & iPad</p>
+            <h1>Lemon Jelly</h1>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              Premium footwear online for North American customers
+            </p>
+            <p className={styles.inpix_hero_p}>
+              Modern e-commerce website with the best user experience to
+              increase sales in a relatively new geography
             </p>
 
             <h2>Provided Services</h2>
             <div className={styles.buttons_design}>
-              <div className={styles.design_btn}>Deployment</div>
-              <div className={styles.design_btn}> Mobile App</div>
+              <div className={styles.design_btn}>Desktop App</div>
+              <div className={styles.design_btn}> Deployment</div>
               <div className={styles.design_btn}>Strategic Consulting</div>
               <div className={styles.design_btn}>Testing</div>
             </div>
@@ -131,12 +133,12 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    LemonJelly has been a prominent player in the fashion
+                    industry, specializing in women's footwear for several
+                    years. With its headquarters in Europe, LemonJelly faced the
+                    challenge of limited market share and brand awareness in
+                    North America. While website traffic was reasonable, the
+                    conversion rate to actual orders remained below average.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +155,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p>LemonJelly</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p> Fashion / Footwear</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>5+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,112 +178,116 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>
+                Enhancing Brand Awareness and Increasing Online Sales in the
+                North American Market
+              </h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The opportunity for LemonJelly lies in substantially increasing
+                brand awareness and online sales for their premium European
+                footwear brand in the North American market. Beyond this
+                overarching objective, several specific opportunities emerged:
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>
+                Revitalizing the LemonJelly Website for Enhanced Sales and User
+                Experience
+              </h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                The Blobstation team embarked on a comprehensive solution to
+                address LemonJelly's challenges. The solution encompassed
+                several key features and improvements:
               </p>
             </div>
           </div>
 
-          <div className={styles.Images_wrapper}>
-            <div className={styles.container}>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-1.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+          <div className={styles.video_wrapper}>
+            <div className={styles.video_container}>
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/lemon-1.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Market Expansion Strategy</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    A tailored strategy was developed to expand LemonJelly's
+                    market presence in North America, including targeted
+                    marketing efforts and localization.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>User Experience Enhancement</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    The team conducted a thorough site audit to identify areas
+                    for improvement. Based on the audit report, a structured
+                    action plan was created, focusing on enhancing the website's
+                    user experience.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-2.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/lemon-2.mp4" />
+                  </video>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-3.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/lemon-3.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Technical Foundation Improvements</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    The initial phase involved addressing fundamental issues
+                    such as page speed optimization, CSS/JS normalization, and
+                    sitemap enhancements to improve the site's technical
+                    foundation.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>E-commerce Enhancements</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    A crucial aspect of the solution was to optimize the
+                    e-commerce aspects, specifically improving the product
+                    pages' attractiveness and informativeness.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-4.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/lemon-4.mp4" />
+                  </video>
                 </div>
               </div>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
+
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                
                   <Image
-                    src="/images/fax-5.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                       className={styles.video_box} 
+                        src="/images/lemon-5.png"
+                        width={625}
+                        height={400}
+                        alt=""
+                      />
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Analytics Integration</h2>
                   <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
+                    Google Analytics was seamlessly integrated to gather
+                    insights into visitor behavior, user acquisition channels,
+                    and reporting. This data-driven approach enabled
+                    data-informed decision-making.
                   </p>
                 </div>
               </div>
@@ -295,7 +301,7 @@ const Fax = () => {
                   <ul className={styles.detail_ul}>
                     <li className={styles.detail_coma_Img}>
                       <Image
-                        src="/images/fax-big-coma.svg"
+                        src="/images/root-bg-coma.svg"
                         width={56}
                         height={44}
                         alt=""
@@ -304,25 +310,28 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        Team at Blobstation did an amazing job for our
+                        e-commerce website. I worked with them very closely and
+                        they managed to exceed the expectations. They helped
+                        with enhancing user experience on the website which
+                        eventually help generate more sales and more business.
+                        The overall experience was very good and definitely
+                        working together on more projects.
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
-                        src="/images/fax-sm-coma.svg"
+                        src="/images/root-sm-coma.svg"
                         width={21}
                         height={16}
                         alt=""
                       />
-                      <h3>Felix Lee</h3>
-                      <h4> Owner</h4>
+                      <h3>Yaniv Dayan</h3>
+                      <h4> E-commerce Manager</h4>
                     </li>
 
                     <Image
                       className={styles.detail_coma_Img_sm}
-                      src="/images/fax-sm-coma.svg"
+                      src="/images/root-sm-coma.svg"
                       width={21}
                       height={16}
                       alt=""
@@ -341,7 +350,7 @@ const Fax = () => {
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/detail-lemon.svg"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +364,11 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                ” LemonJelly wants to build mobile application in the near
+                future to aim for a mobile first approach. App will be available
+                in both iOS and Android platforms. Blobstation team is working
+                on scope and feature sets requirement analysis to kick off
+                development soon.”
               </p>
             </div>
           </div>
@@ -370,4 +381,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default LemonJelly;

@@ -13,7 +13,9 @@ const Inpixo = () => {
       <div className={styles.inpix_hero}>
         <div className={styles.container}>
           <h1>inPixio AI Photo Editor</h1>
-          <p>Edit your photos like a pro with AI Photo Editor !</p>
+          <p className={styles.inpix_hero_p}>
+            Edit your photos like a pro with AI Photo Editor !
+          </p>
           <p className={styles.inpix_hero_p}>
             Add a wide range of impressive effects to your photo with features
             that go beyond a standard online photo editor.
@@ -195,86 +197,246 @@ const Inpixo = () => {
           </div>
         </div>
 
-      <div className={styles.Images_wrapper}>
-        <div className={styles.container}>
-          <div className={styles.Image_main_box}>
-            <div className={styles.Image_left_box}>
-            <Image
-                      src="/images/inpx-1.png"
-                      width={330 }
-                      height={495}
-                      alt=""
-                    />
-            </div>
-            <div className={styles.Image_right_box}>
-              <h2>Background Magic</h2>
-              <p>Remove and replace backgrounds from photos, opening up creative possibilities for image manipulation.</p>
+        <div className={styles.Images_wrapper}>
+          <div className={styles.container}>
+            <div className={styles.Image_main_box}>
+              <div className={styles.Image_left_box}>
+                <Image
+                  src="/images/inpx-1.png"
+                  width={330}
+                  height={495}
+                  alt=""
+                />
               </div>
-          </div>
+              <div className={styles.Image_right_box}>
+                <h2>Background Magic</h2>
+                <p>
+                  Remove and replace backgrounds from photos, opening up
+                  creative possibilities for image manipulation.
+                </p>
+              </div>
+            </div>
 
-          <div className={styles.Image_main_box2}>
-            <div className={styles.Image_left_box2}>
-            <h2>Custom Filters</h2>
-              <p>Add personalized filters to photos, enhancing visual aesthetics and achieving unique looks.</p>
-            </div>
-            <div className={styles.Image_right_box2}>
-            <Image
-                      src="/images/inpix-2.png"
-                      width={330 }
-                      height={495}
-                      alt=""
-                    />
-            
+            <div className={styles.Image_main_box2}>
+              <div className={styles.Image_left_box2}>
+                <h2>Custom Filters</h2>
+                <p>
+                  Add personalized filters to photos, enhancing visual
+                  aesthetics and achieving unique looks.
+                </p>
               </div>
-          </div>
+              <div className={styles.Image_right_box2}>
+                <Image
+                  src="/images/inpix-2.png"
+                  width={330}
+                  height={495}
+                  alt=""
+                />
+              </div>
+            </div>
 
-          <div className={styles.Image_main_box}>
-            <div className={styles.Image_left_box}>
-            <Image
-                      src="/images/inpix-3.png"
-                      width={330 }
-                      height={495}
-                      alt=""
-                    />
-            </div>
-            <div className={styles.Image_right_box}>
-              <h2>Text and Stickers</h2>
-              <p>Incorporate text and stickers seamlessly into photos, adding a personal touch or playful elements.</p>
+            <div className={styles.Image_main_box}>
+              <div className={styles.Image_left_box}>
+                <Image
+                  src="/images/inpix-3.png"
+                  width={330}
+                  height={495}
+                  alt=""
+                />
               </div>
-          </div>
+              <div className={styles.Image_right_box}>
+                <h2>Text and Stickers</h2>
+                <p>
+                  Incorporate text and stickers seamlessly into photos, adding a
+                  personal touch or playful elements.
+                </p>
+              </div>
+            </div>
 
-          <div className={styles.Image_main_box2}>
-            <div className={styles.Image_left_box2}>
-            <h2>Precise Adjustments</h2>
-              <p>Fine-tune photo attributes such as brightness, contrast, hue, and more, achieving desired visual effects.</p>
-            </div>
-            <div className={styles.Image_right_box2}>
-            <Image
-                      src="/images/inpix-4.png"
-                      width={330 }
-                      height={495}
-                      alt=""
-                    />
-            
+            <div className={styles.Image_main_box2}>
+              <div className={styles.Image_left_box2}>
+                <h2>Precise Adjustments</h2>
+                <p>
+                  Fine-tune photo attributes such as brightness, contrast, hue,
+                  and more, achieving desired visual effects.
+                </p>
               </div>
-          </div>
-          <div className={styles.Image_main_box}>
-            <div className={styles.Image_left_box}>
-            <Image
-                      src="/images/inpix-5.png"
-                      width={330 }
-                      height={495}
-                      alt=""
-                    />
-            </div>
-            <div className={styles.Image_right_box}>
-              <h2>Object Manipulation</h2>
-              <p>Reposition and rotate objects within photos, allowing for precise composition and creative editing.</p>
+              <div className={styles.Image_right_box2}>
+                <Image
+                  src="/images/inpix-4.png"
+                  width={330}
+                  height={495}
+                  alt=""
+                />
               </div>
+            </div>
+            <div className={styles.Image_main_box}>
+              <div className={styles.Image_left_box}>
+                <Image
+                  src="/images/inpix-5.png"
+                  width={330}
+                  height={495}
+                  alt=""
+                />
+              </div>
+              <div className={styles.Image_right_box}>
+                <h2>Object Manipulation</h2>
+                <p>
+                  Reposition and rotate objects within photos, allowing for
+                  precise composition and creative editing.
+                </p>
+              </div>
+            </div>
           </div>
-
         </div>
-      </div>
+
+        <div className={styles.process_wrapper}>
+          <div className={styles.container}>
+            <Row className={styles.process_row}>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 7 }}
+                xl={{ span: 7 }}
+              >
+                <div>
+                  <h5 className={styles.process_h5}>Our Process</h5>
+                  <p className={styles.process_p}>
+                    Following agile methodology with a scrum framework, the
+                    development of the application was relatively seamless.
+                    Having clients always in sync with the tech team on a
+                    day-to-day basis, the feedback cycle was very short and
+                    agile. The project was delivered on time and within budget.
+                  </p>
+                  <button className={styles.start_btn}>
+                    <Link href="/contacts">Get Started</Link>
+                  </button>
+                </div>
+              </Col>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 7 }}
+                xl={{ span: 7 }}
+              >
+                <div className={styles.process_box}>
+                  <Image
+                    src="/images/process-4.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+                  <h6>Development Methodology</h6>
+                  <p>
+                    Blobstation has followed an Agile development methodology.
+                    Daily scrum meetings to discuss things which are done, in
+                    progress and blocked if any. Also weekly sprint meetings to
+                    decide on the upcoming week’s scope. The tech lead also
+                    presented a demo every end of the sprint to give the
+                    progress report and collect early feedback.
+                  </p>
+                </div>
+              </Col>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 7 }}
+                xl={{ span: 7 }}
+              >
+                <div className={styles.process_box}>
+                  <Image
+                    src="/images/process-2.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+                  <h6>Resources</h6>
+                  <p>
+                    The project started with UI/UX for the first two weeks. One
+                    dedicated designer worked very closely with a client
+                    representative to work on flow. In parallel, two backend
+                    developers started building the foundation for the project
+                    core logic. Two frontend developers worked in sync with
+                    backend developers to integrate the proposed UI/UX. One
+                    project manager used to keep track of tasks and the time
+                    taken to complete them.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className={styles.process_row}>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 8 }}
+                xl={{ span: 8 }}
+              >
+                <div className={styles.process_box}>
+                  <Image
+                    src="/images/process-3.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+                  <h6>Engagement Model</h6>
+                  <p>
+                    Here, we followed the time and material engagement model. We
+                    used the JIRA project management tool for issue tracking.
+                  </p>
+                </div>
+              </Col>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 8 }}
+                xl={{ span: 8 }}
+              >
+                <div className={styles.process_box}>
+                  <Image
+                    src="/images/process-4.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+                  <h6>Timeline</h6>
+                  <p>
+                    The project took two and half months to complete which
+                    included UI/UX, development, quality assurance and
+                    deployment.
+                  </p>
+                </div>
+              </Col>
+              <Col
+                xs={{ span: 24 }}
+                sm={{ span: 24 }}
+                md={{ span: 12 }}
+                lg={{ span: 8 }}
+                xl={{ span: 8 }}
+              >
+                <div className={styles.process_box}>
+                  <Image
+                    src="/images/process-5.svg"
+                    width={77}
+                    height={65}
+                    alt=""
+                  />
+                  <h6>Deployment</h6>
+                  <p>
+                    Upon successful testing and client approval, we proceed to
+                    deploy the app to the relevant app stores, making it
+                    accessible to your audience.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </div>
 
         <div className={styles.details_wrapper}>
           <div className={styles.container}>

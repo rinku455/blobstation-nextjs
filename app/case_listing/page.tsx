@@ -41,7 +41,7 @@ const CaseListing = () => {
               <div className={styles.case_btn}>Desktop Application</div>
             </Link>
           </div>
-
+ 
           <div className={styles.container_cash}>
             <div className={styles.case_box}>
               <div className={styles.case_main2_1}>
@@ -54,7 +54,7 @@ const CaseListing = () => {
                       Easily secure personal files by locking them down with
                       password protection, FaceID and military-grade encryption.
                     </p>
-                    <Link href="/case_index/">
+                    <Link href="/case_Inner_pages/case_safe">
                       <button className={styles.read_btn4}>
                         {" "}
                         Read more
@@ -96,7 +96,7 @@ const CaseListing = () => {
                     Modern e-commerce website with the best user experience to
                     increase sales in a relatively new geography
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_lemon">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more
@@ -137,7 +137,7 @@ const CaseListing = () => {
                     Powerful all-purpose portable scanner with built-in OCR with
                     flexible formats
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_scanner">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more
@@ -182,7 +182,7 @@ const CaseListing = () => {
                     Powerful AI in the free background remover detects the image
                     background and removes it automatically in seconds
                   </p>
-                  <Link href="/read">
+                       <Link href="/case_Inner_pages/case_bgremove">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more
@@ -227,7 +227,7 @@ const CaseListing = () => {
                     A web portal where potential customers can checkout
                     available properties for sale or rent
                   </p>
-                  <Link href="/read">
+                  <Link href="/case_Inner_pages/case_property">
                     <button className={styles.read_btn4}>
                       {" "}
                       Read more

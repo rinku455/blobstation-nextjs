@@ -13,7 +13,7 @@ const TrueMoso = () => {
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
             <h1>True Moso</h1>
-            <p>Data driven business decisions for your next product</p>
+            <p className={styles.inpix_hero_p}>Data driven business decisions for your next product</p>
             <p className={styles.inpix_hero_p}>
               Make new product investment decisions with more confidence using
               our product strategy tool
@@ -198,19 +198,20 @@ const TrueMoso = () => {
             </div>
           </div>
 
-          <div className={styles.Images_wrapper}>
-            <div className={styles.container}>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                    
-                  <Image
-                    src="/images/true-1.mp4"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+          <div className={styles.video_wrapper}>
+            <div className={styles.video_container}>
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box}
+                    autoPlay
+                    muted
+                    loop
+                   
+                  >
+                    <source src="/images/true-1.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
+                <div className={styles.video_right_box}>
                   <h2>Comprehensive Data Inputs</h2>
                   <p>
                     The app allowed users to input a diverse array of data,
@@ -220,36 +221,42 @@ const TrueMoso = () => {
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Advanced Analytics</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                <h2>Advanced Analytics</h2>
                   <p>
                     Cutting-edge analytics and algorithms processed the data
                     inputs, providing users with detailed insights and
                     visualizations.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/true.mp4"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                <video className={styles.video_box}
+                    autoPlay
+                    muted
+                    loop
+                   
+                  >
+                    <source src="/images/true.mp4" />
+                  </video>
+               
                 </div>
               </div>
 
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/true-3.mp4"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box}
+                    autoPlay
+                    muted
+                    loop
+                   
+                  >
+                    <source src="/images/true-3.mp4"/>
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Scenario Planning</h2>
+                <div className={styles.video_right_box}>
+                <h2>Scenario Planning</h2>
                   <p>
                     Users could explore various scenarios and hypotheses to
                     assess the potential outcomes of different product
@@ -258,35 +265,41 @@ const TrueMoso = () => {
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Financial Modeling</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                <h2>Financial Modeling</h2>
                   <p>
                     The app incorporated robust financial modeling tools to
                     calculate ROI and NPV, helping businesses gauge the
                     financial viability of new products.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/true-4.mp4"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                <video className={styles.video_box}
+                    autoPlay
+                    muted
+                    loop
+                   
+                  >
+                    <source src="/images/true.mp4" />
+                  </video>
+               
                 </div>
               </div>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/true-6.mp4"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box}
+                    autoPlay
+                    muted
+                    loop
+                   
+                  >
+                    <source src="/images/true-6.mp4"/>
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Collaborative Workspace</h2>
+                <div className={styles.video_right_box}>
+                <h2>Collaborative Workspace</h2>
                   <p>
                     Teams could collaborate within the app, sharing data,
                     insights, and recommendations, streamlining the
@@ -294,6 +307,8 @@ const TrueMoso = () => {
                   </p>
                 </div>
               </div>
+
+            
             </div>
           </div>
 
@@ -326,7 +341,7 @@ const TrueMoso = () => {
                         alt=""
                       />
                       <h3>Siddharth</h3>
-                      <h3> Founder</h3>
+                      <h4> Founder</h4>
                     </li>
 
                     <Image

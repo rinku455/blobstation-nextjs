@@ -6,25 +6,25 @@ import Marquee from "react-fast-marquee";
 import Footer from "../../footer/page";
 import OurServices from "../../our_service/page";
 
-const Fax = () => {
+const Root = () => {
   return (
     <>
       <div>
         <div className={styles.inpix_hero}>
           <div className={styles.container}>
-            <h1>Fax App</h1>
-            <p className={styles.inpix_hero_p}>Turn any document into a fax from your phone & iPad</p>
+            <h1>Root On</h1>
+            <p className={styles.inpix_hero_p}>Help Students To Find Right Programs For Higher Education</p>
             <p className={styles.inpix_hero_p}>
-              Create faxes from any files with a couple of taps and send them
-              across the world in seconds
+              A web application to streamline the process starting from finding
+              the right program to get admitted into the school
             </p>
 
             <h2>Provided Services</h2>
             <div className={styles.buttons_design}>
               <div className={styles.design_btn}>Deployment</div>
-              <div className={styles.design_btn}> Mobile App</div>
-              <div className={styles.design_btn}>Strategic Consulting</div>
+              <div className={styles.design_btn}> Strategic Consulting</div>
               <div className={styles.design_btn}>Testing</div>
+              <div className={styles.design_btn}>Web App</div>
             </div>
           </div>
 
@@ -131,12 +131,13 @@ const Fax = () => {
                 >
                   <h2>Client Background</h2>
                   <p>
-                    The client recognized the persistent reliance on fax
-                    communication in various industries and sought to streamline
-                    this process for the mobile age. Leveraging their expertise
-                    in app development, they aimed to provide users with a
-                    simple yet powerful tool for faxing documents from their
-                    smartphones and iPads.
+                    Our client has established a reputable presence in the
+                    Indian education industry, guiding students toward
+                    international higher education options. However, the
+                    increasing diversity of available programs posed a
+                    formidable challenge. The need for a more efficient and
+                    effective solution to streamline the process of program
+                    selection became evident.
                   </p>
                 </Col>
                 <div className={styles.client_space}></div>
@@ -153,19 +154,19 @@ const Fax = () => {
                       <h3>Project </h3>
                     </li>
                     <li>
-                      <p> Fax</p>
+                      <p> Root On Inc.</p>
                     </li>
                     <li>
                       <h3>Industry </h3>
                     </li>
                     <li>
-                      <p>Software Utilities</p>
+                      <p> Education / Immigration</p>
                     </li>
                     <li>
                       <h3> Years in Industry </h3>
                     </li>
                     <li>
-                      <p className={styles.last_p}>3+ Years</p>
+                      <p className={styles.last_p}>5+ Years</p>
                     </li>
                   </ul>
                 </Col>
@@ -176,112 +177,110 @@ const Fax = () => {
           <div className={styles.opportunity_wrapper}>
             <div className={styles.container}>
               <h2>Opportunity</h2>
-              <h3>Revitalize Fax Communication for the Digital Era</h3>
+              <h3>
+                Simplify the Process of Identifying Suitable Study Programs for
+                Students
+              </h3>
               <p>
-                The primary opportunity presented by the Fax App was to
-                modernize fax communication by making it accessible through
-                mobile devices. The app addressed the limitations of traditional
-                fax machines by offering a convenient and efficient way to
-                create and send faxes from anywhere in the world.
+                The primary opportunity presented to our team was to simplify
+                the program selection process for students and education agents
+                working with the client. This involved creating a comprehensive
+                portal accessible to both students and the client's team of
+                agents. The portal's goal was to enable users to filter and
+                shortlist courses based on their preferences and individual
+                student profiles, ultimately facilitating the final selection of
+                programs for application.
               </p>
 
               <h2>Solution</h2>
-              <h3>Fax App: Transforming Fax Communication</h3>
+              <h3>The RootOn Portal: Transforming Program Selection</h3>
               <p>
-                The Fax App boasted several key features that revolutionized fax
-                communication. Here are five key features with one-liner
-                subheadings:
+                Our approach to addressing this challenge was the development of
+                the RootOn Portal. This innovative platform aimed to
+                revolutionize the way students and agents approached program
+                selection. Key features of the portal included:
               </p>
             </div>
           </div>
 
-          <div className={styles.Images_wrapper}>
-            <div className={styles.container}>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-1.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+          <div className={styles.video_wrapper}>
+            <div className={styles.video_container}>
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/root-1.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Mobile Faxing</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Student Profiles</h2>
                   <p>
-                    Create and send faxes directly from your mobile device or
-                    iPad, eliminating the need for traditional fax machines.
+                    Each student created a profile within the portal, detailing
+                    their academic qualifications, preferences, and aspirations.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>File Compatibility</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Program Database</h2>
                   <p>
-                    Upload and fax a wide range of document types, including
-                    PDFs, images, and more.
+                    The portal contained an extensive database of international
+                    study programs, with detailed information on each program's
+                    prerequisites, content, and benefits.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-2.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/root-2.mp4" />
+                  </video>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-3.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/root-3.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Global Reach</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Advance Search and Marketing</h2>
                   <p>
-                    Transmit faxes to fax numbers worldwide, enabling
-                    international communication with ease.
+                    A robust search and filtering system allowed students and
+                    agents to narrow down program options based on criteria such
+                    as course duration, location, tuition fees, and specific
+                    academic requirements.
                   </p>
                 </div>
               </div>
 
-              <div className={styles.Image_main_box2}>
-                <div className={styles.Image_left_box2}>
-                  <h2>Quick and Easy</h2>
+              <div className={styles.video_main_box2}>
+                <div className={styles.video_left_box2}>
+                  <h2>Recommendation Engine</h2>
                   <p>
-                    Effortlessly create faxes with just a few taps, streamlining
-                    the entire faxing process.
+                    The portal incorporated an intelligent recommendation engine
+                    that analyzed each student's profile and preferences to
+                    suggest suitable programs.
                   </p>
                 </div>
-                <div className={styles.Image_right_box2}>
-                  <Image
-                    src="/images/fax-4.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+                <div className={styles.video_right_box2}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/root.mp4" />
+                  </video>
                 </div>
               </div>
-              <div className={styles.Image_main_box}>
-                <div className={styles.Image_left_box}>
-                  <Image
-                    src="/images/fax-5.png"
-                    width={330}
-                    height={495}
-                    alt=""
-                  />
+
+              <div className={styles.video_main_box}>
+                <div className={styles.video_left_box}>
+                  <video className={styles.video_box} autoPlay muted loop>
+                    <source src="/images/root-5.mp4" />
+                  </video>
                 </div>
-                <div className={styles.Image_right_box}>
-                  <h2>Usage Insights</h2>
+                <div className={styles.video_right_box}>
+                  <h2>Application Management</h2>
                   <p>
-                    Access statistics and insights into fax transmission,
-                    enhancing efficiency and tracking.
+                    The portal provided a streamlined application process,
+                    assisting students in submitting applications to chosen
+                    programs directly.
                   </p>
                 </div>
               </div>
@@ -295,7 +294,7 @@ const Fax = () => {
                   <ul className={styles.detail_ul}>
                     <li className={styles.detail_coma_Img}>
                       <Image
-                        src="/images/fax-big-coma.svg"
+                        src="/images/root-bg-coma.svg"
                         width={56}
                         height={44}
                         alt=""
@@ -304,44 +303,35 @@ const Fax = () => {
 
                     <li>
                       <p>
-                        Working with Blobstation on the Fax App was a pleasure.
-                        Their efficiency and reliability shine through in the
-                        final product. Blobstation is the go-to team for app
-                        development.
+                        Had an opportunity to work with blobstation team on a
+                        project which we started from scratch. We have done lot
+                        of productive discussions during development stages to
+                        build a product which makes our business grow.
                       </p>
                       <Image
                         className={styles.detail_coma_Img_sm_responsive}
-                        src="/images/fax-sm-coma.svg"
+                        src="/images/root-sm-coma.svg"
                         width={21}
                         height={16}
                         alt=""
                       />
-                      <h3>Felix Lee</h3>
-                      <h4> Owner</h4>
+                      <h3>Ronak Patel</h3>
+                      <h4> Founder & CEO</h4>
                     </li>
 
                     <Image
                       className={styles.detail_coma_Img_sm}
-                      src="/images/fax-sm-coma.svg"
+                      src="/images/root-sm-coma.svg"
                       width={21}
                       height={16}
                       alt=""
                     />
-
-                    {/* <li className={styles.detail_coma_Img_sm}>
-                    <Image
-                      src="/images/small-coma.svg"
-                      width={21}
-                      height={16}
-                      alt=""
-                    />
-                  </li> */}
                   </ul>
                 </div>
                 <div className={styles.detail_Img}>
                   <Image
                     className={styles.detail_Img_space}
-                    src="/images/fax-detail.webp"
+                    src="/images/detail-root.png"
                     width={202}
                     height={236}
                     alt=""
@@ -355,9 +345,11 @@ const Fax = () => {
             <div className={styles.container}>
               <h1>What's Next</h1>
               <p>
-                “The Fax App represented a significant leap forward in the world
-                of fax communication, offering a powerful solution for users to
-                send faxes directly from their mobile devices and iPads.”
+                ” Rooton wants to use this application for immigration clients
+                as well. These clients are different from students and in this
+                case, the main focus would be client profile and document
+                management. Business Analytics team at Blobstation already
+                working on next phase requirements.”
               </p>
             </div>
           </div>
@@ -370,4 +362,4 @@ const Fax = () => {
   );
 };
 
-export default Fax;
+export default Root;
