@@ -296,7 +296,7 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
+                md={{ span: 11 }}
                 lg={{ span: 7 }}
                 xl={{ span: 7 }}
               >
@@ -317,9 +317,9 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
-                lg={{ span: 7 }}
-                xl={{ span: 7 }}
+                md={{ span: 11 }}
+                lg={{ span: 8 }}
+                xl={{ span: 8 }}
               >
                 <div className={styles.process_box}>
                   <Image
@@ -342,9 +342,9 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
-                lg={{ span: 7 }}
-                xl={{ span: 7 }}
+                md={{ span: 11 }}
+                lg={{ span: 8 }}
+                xl={{ span: 8 }}
               >
                 <div className={styles.process_box}>
                   <Image
@@ -372,11 +372,11 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
-                lg={{ span: 8 }}
-                xl={{ span: 8 }}
+                md={{ span: 11 }}
+                lg={{ span: 7 }}
+                xl={{ span: 7 }}
               >
-                <div className={styles.process_box}>
+                <div className={styles.process_box_sm}>
                   <Image
                     src="/images/process-3.svg"
                     width={77}
@@ -393,11 +393,11 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
+                md={{ span: 11 }}
                 lg={{ span: 8 }}
                 xl={{ span: 8 }}
               >
-                <div className={styles.process_box}>
+                <div className={styles.process_box_sm}>
                   <Image
                     src="/images/process-4.svg"
                     width={77}
@@ -415,11 +415,11 @@ const Inpixo = () => {
               <Col
                 xs={{ span: 24 }}
                 sm={{ span: 24 }}
-                md={{ span: 12 }}
+                md={{ span: 11   }}
                 lg={{ span: 8 }}
                 xl={{ span: 8 }}
               >
-                <div className={styles.process_box}>
+                <div className={styles.process_box_sm}>
                   <Image
                     src="/images/process-5.svg"
                     width={77}

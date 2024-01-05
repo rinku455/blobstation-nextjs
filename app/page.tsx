@@ -15,6 +15,7 @@ import Form from "./contacts/page";
 import Client from "./client /page";
 import Solution from "./solution/page";
 import Image from "next/image";
+import OurSolution from "./our_solution/page";
 // import "./fonts.css";
 // import "./globals.css"
 export default function Home() {
@@ -87,107 +88,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <div className={styles.banner_right}>
-            <div className={styles.banner_top}></div>
-            <div className={styles.banner_bottom}></div>
-            <ul className={styles.banner_parent}>
-              <li>
-              <Marquee  direction="down">
-                <ul className={styles.banner_child}>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner1.JPG"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner2.JPG"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner3.JPG "
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                </ul>
-                </Marquee>
-              </li>
-              <li>
-                <ul className={styles.banner_child}>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner2-1.png"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner2-2.png"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner2-3.webp"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </li>
-              <li className={styles.last}>
-                <ul className={styles.banner_last}>
-                  <li>
-                    <Image
-                      className={styles.img}
-                      src="/images/banner3-1.webp"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.img}
-                      src="/images/banner3-2.webp"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                  <li>
-                    <Image
-                      className={styles.pic}
-                      src="/images/banner3-3.webp"
-                      width={174}
-                      height={300}
-                      alt=""
-                    />
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div> */}
+         
 
           <div className={styles.hero_right}>
             <ul className={styles.hero_parent}>
@@ -296,13 +197,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div></div>
-
       <OurServices />
       <FastGrow />
       <Tailored />
       <Counting />
       <Team />
+      <OurSolution/>
       <Degital />
       <Client />
       <Software />
