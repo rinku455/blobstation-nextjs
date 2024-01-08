@@ -1133,9 +1133,10 @@ display: inline-flex;
 }
 
 @media (max-width: 992px) {
-
-
-  .service_drop_btn {
+  .top_right {
+    top: 0px;
+  }
+.service_drop_btn {
     font-size: 18px;}
   /* /******** hero section  start************* */
   .hero_main {
@@ -1152,9 +1153,9 @@ display: inline-flex;
 
   .hero_right { 
     float: none;
-    max-width: 100%;
+    max-width: 65%;
     width: 100%;
-    margin: 10px 0 0 0px;
+    margin: 0 auto;
   }
 
 
@@ -1364,8 +1365,9 @@ display: inline-flex;
 
 .Dropservice{padding-top: 50px;}
 
-
-
+.hero_right { 
+  max-width: 90%;
+}
 
 .sidebar_ul .ant-dropdown-menu {
 margin-top: 270px; 
@@ -1621,8 +1623,9 @@ margin-top: 270px;
     padding: 20px 0px; 
     
   }
+ 
 
-  .last {display: none;opacity: 0;
+  .hero_last .last {display: none;opacity: 0;
   }
 
   .hero_left_h1 {

@@ -37,7 +37,7 @@ const TrueMoso = () => {
                 <ul>
                   <li>
                     <Image
-                      src="/images/inpix-1.svg"
+                      src="/images/true-sli-1.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -45,7 +45,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-2.svg"
+                      src="/images/true-sli-2.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -53,7 +53,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-3.svg"
+                      src="/images/true-sli-3.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -61,7 +61,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-4.svg"
+                      src="/images/true-sli-4.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -69,7 +69,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-5.svg"
+                      src="/images/true-sli-5.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -77,7 +77,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-6.svg"
+                      src="/images/true-sli-6.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -85,7 +85,15 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-7.svg"
+                      src="/images/true-sli-7.svg"
+                      width={70}
+                      height={70}
+                      alt=""
+                    />{" "}
+                  </li>
+                  <li>
+                  <Image
+                      src="/images/true-sli-1.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -93,7 +101,7 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-1.svg"
+                      src="/images/true-sli-2.svg"
                       width={70}
                       height={70}
                       alt=""
@@ -101,20 +109,13 @@ const TrueMoso = () => {
                   </li>
                   <li>
                     <Image
-                      src="/images/inpix-2.svg"
+                      src="/images/true-sli-3.svg"
                       width={70}
                       height={70}
                       alt=""
                     />{" "}
                   </li>
-                  <li>
-                    <Image
-                      src="/images/inpix-3.svg"
-                      width={70}
-                      height={70}
-                      alt=""
-                    />{" "}
-                  </li>
+                 
                 </ul>
               </Marquee>
             </div>
