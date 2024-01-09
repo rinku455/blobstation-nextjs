@@ -1,11 +1,59 @@
 
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {  font-family: 'Satoshi', sans-serif;}
-.font-satoshi {
-    font-family: 'Satoshi', sans-serif;
-  }
+
+/* 
+@font-face {
+  font-family: 'Satoshi';
+    src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-BoldItalic.woff2')
+    format('woff2');
+    font-weight: 700;
+    src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.woff')
+    format('woff');  
+    font-weight: 500;
+
+
+
+} */
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Light.woff2')
+  format('woff2');
+  font-weight: 300; 
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.woff2')
+  format('woff2');
+  font-weight: 400; 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi';
+   src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.woff2')
+    format('woff2');  
+    font-weight: 500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.woff2')
+  format('woff2');
+  font-weight: 700; 
+  font-weight: normal;
+  font-style: normal;
+}
+
+

@@ -72,10 +72,10 @@ const Degital = () => {
             >
               <div className={styles.try_work}>
                 <div className={styles.work_text}>
-                  <h2>Remove Background </h2>
+                  <h2>Fax</h2>
                   <p>
-                    Get a transparent background in seconds
-                    <br /> with AI background remover
+                   
+Turn any document into a fax from your <br></br>phone & iPad
                   </p>
                   <button className={styles.read_btn4}>
                     {" "}
@@ -117,10 +117,10 @@ const Degital = () => {
             >
               <div className={styles.try_work3}>
                 <div className={styles.work_text3}>
-                  <h2>Root On </h2>
+                  <h2>True Moso
+</h2>
                   <p>
-                    Help Students To Find Right Programs For
-                    <br /> Higher Education
+                  Data driven business decisions for your<br/> next product
                   </p>
                   <button className={styles.read_btn4}>
                     {" "}
@@ -160,10 +160,10 @@ const Degital = () => {
               <div className={styles.try_work4}>
                 <div className={styles.work_text4}>
                   <h2>
-                    VNP <span>Web Portal</span>
+                    <span>VNP Portal</span>
                   </h2>
                   <p>
-                    Book courier pickup & delivery under two <br />
+                    Book courier pickup & delivery under <br /> two
                     minutes
                   </p>
                   <button className={styles.read_btn4}>

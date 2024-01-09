@@ -41,8 +41,8 @@ const Team = () => {
                   <div className={styles.team_content}>
                     <h1 className={styles.team_content_h1}>
                       {" "}
-                      With team of dedicated professionals you will be in good
-                      hands.
+                      With a team of dedicated professionals, you will be in
+                      good hands.
                     </h1>
                     <p className={styles.team_content_p}>
                       We develop software solutions by working closely with

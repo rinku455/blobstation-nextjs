@@ -4,9 +4,9 @@ import  "../styles/responsive.module.css";
 import { AutoComplete, Input } from "antd";
 import { Checkbox } from "antd";
 import { Col, Row } from "antd";
-import { Select, Space } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import Image from "next/image";
+
 
 const Form = () => {  
   return (
@@ -17,7 +17,7 @@ const Form = () => {
             <Col 
               xs={{ span: 24 }}
               sm={{ span: 24 }}
-              md={{ span: 12 }}
+              md={{ span: 24 }}
               lg={{ span: 12 }}
               xl={{ span: 12 }}
             >
@@ -29,8 +29,9 @@ const Form = () => {
                 </p>
               </div>
               <div className={styles.name}>
-                <div className={styles.name_left}>
-                  <Input className={styles.form} placeholder="First Name" />
+                <div className={styles.name_left}> 
+              
+                  <Input  type="email" className={styles.form} placeholder="First Name" />
                 </div>
                 <div className={styles.name_right}>
                   <Input className={styles.form} placeholder="Last Name" />
@@ -47,13 +48,6 @@ const Form = () => {
     <option value="3">Enterprise</option>
   </select>
  
-
-              {/* <Select  ant-select-selector className={styles.select} defaultValue="Company Type">
-                <option   value="Company">Company Type</option>
-                <option value="Startup">Startup</option>
-                <option value="SEM">SEM</option>
-                <option value="Enterprise">Enterprise</option>
-              </Select> */}
              
               <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
               <ul>
@@ -74,7 +68,7 @@ const Form = () => {
                 </li>
               </ul>
 
-              <TextArea
+              <TextArea  rows={4  }
                 className={styles.textarea}
                 placeholder="Your message..."
               />
@@ -85,12 +79,11 @@ const Form = () => {
             <Col
               xs={{ span: 24 }}
               sm={{ span: 24 }}
-              md={{ span: 12 }}
+              md={{ span: 24 }}
               lg={{ span: 12 }}
               xl={{ span: 12 }}
             >
-              <Image
-                className={styles.fluid}
+              <Image className={styles.contact_Img}
                 src="/images/contact.jpg"
                 width={480}
                 height={414}
