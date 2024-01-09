@@ -79,7 +79,7 @@
   border: none;
   margin: 0;
   align-items: center;
-  cursor: pointer;
+  cursor: pointer;    font-weight: 500;
 }
 
 .bi_arrow {
@@ -117,7 +117,7 @@
 .work_text p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Satoshi';
 }
 
@@ -159,12 +159,12 @@
 .work_text2 p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Satoshi';
 }
 
 .try_work3 {
-  background-color: #ffefe9;
+  background-color:#F4F4FF;
   border-radius: 8px;
   padding: 32px;
   min-height: 434px;
@@ -184,13 +184,13 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-  color: #f08357;
+  color: #6c6cb6;
 }
 
 .work_text3 p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .try_work4 {
@@ -217,13 +217,13 @@
 }
 
 .work_text4 h2 span {
-  color: #000;
+  color: #2e8096;
 }
 
 .work_text4 p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* /******** degital section  end************* */
@@ -562,7 +562,7 @@
   color: #4f5357;
   font-size: 12.99px;
   line-height: 19.32px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* .stick-active {
@@ -743,7 +743,7 @@
   margin-top: 12px;
   line-height: 32px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .main_btn_box {
   max-width: 482px;

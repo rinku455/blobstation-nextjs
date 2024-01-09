@@ -37,13 +37,13 @@ const Technical = () => {
 
                     <h2 className={styles.tech_box_h2}>
                       {" "}
-                      Surviving the test of time: Deploying a web application
-                      for your business{" "}
+                      From App Idea to Empire: Crowdfunding Your Mobile App
+                      Startup
                     </h2>
                     <p className={styles.tech_box_p}>
-                      Abstract with the COVID-19 crisis rising to an all-time
-                      high in 2020, the delivery and pickup service across all
-                      nations reduced dramatically...
+                      The mobile app landscape is a buzz with potential: a
+                      multi-billion dollar industry where the next big idea
+                      could be yours.
                     </p>
                   </div>
                 </div>
@@ -63,13 +63,13 @@ const Technical = () => {
                     alt=""
                   />
                   <h2 className={styles.tech_box_h2}>
-                    {" "}
-                    Xamarin vs Ionic – The Cross-Platform or Hybrid App
-                    Development ?
+                    Top Web Development Frameworks: Elevate Your Web App
+                    Development Game
                   </h2>
                   <p className={styles.tech_box_p}>
-                    Xamarin vs Ionic – The Cross-Platform or Hybrid App
-                    Development ?
+                    In the ever-evolving landscape of web development, the
+                    choice of a web development framework is more critical than
+                    ever.
                   </p>
                 </div>
               </Col>
@@ -89,12 +89,12 @@ const Technical = () => {
                   />
                   <h2 className={styles.tech_box_h2}>
                     {" "}
-                    Xamarin vs Ionic – The Cross-Platform or Hybrid App
-                    Development ?{" "}
+                    Effective Mobile App Monetization Strategies to Try in 2024
                   </h2>
                   <p className={styles.tech_box_p}>
-                    Xamarin vs Ionic – The Cross-Platform or Hybrid App
-                    Development ?
+                    In the fast-evolving landscape of mobile app development,
+                    successful monetization strategies are crucial for
+                    sustaining growth and profitability.
                   </p>
                 </div>
               </Col>

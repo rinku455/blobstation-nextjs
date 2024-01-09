@@ -151,7 +151,7 @@ border-radius: 5px;
 
 .nav_li {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500;    font-family: 'Satoshi';
 }
 .nav_li:hover {
   color: #2e8096;
@@ -373,7 +373,7 @@ animation: first_li 10s infinite  alternate;
 
 .service_wrapper {
   padding: 50px 0;
-  margin: 0;
+  margin: 0;font-family: 'Satoshi';
 }
 
 .service_wrapper h2 {
@@ -386,13 +386,14 @@ animation: first_li 10s infinite  alternate;
 }
 
 .service_wrapper p {
-  padding: 20px 0 80px 0px;
+  padding: 20px 0 50px 0px;
   line-height: 32px;
-  max-width: 600px;
+  max-width: 590px;
   width: 100%;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
+ 
 }
 
 .service_row {
@@ -532,6 +533,8 @@ padding: 0 20px;
   cursor: pointer;
   font-weight: 400;
 }
+
+.footer_wrapper ul li a.active {color: #017392;}
 .footer_wrapper ul li a:hover{color: #017392;}
 
 .footer_wrapper h1 {
@@ -1003,7 +1006,7 @@ padding: 0 20px;
 .dev_left h1 {
   color: #fff;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 70px;
 }
 
@@ -1023,11 +1026,11 @@ padding: 0 20px;
 }
 
 .tech_box {
-  padding: 18px;
+  padding: 18px 18px 0 18px; 
   border-radius: 10px;
   border: 1px solid rgb(192, 187, 187);
   margin: 10px 5px;
-  height: 400px;
+min-height: 405px;
 
 }
 .read_btn4 {
@@ -1066,7 +1069,7 @@ padding: 0 20px;
 
 .tech_wrapper_p {
   text-align: center;
-  padding: px 0 20px 0;
+  padding: 0px 0 20px 0;
   margin: 0;
   font-size: 18px;
   font-weight: 400;
@@ -1082,7 +1085,7 @@ padding: 0 20px;
 
 .tech_box_p {
   text-align: left;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   margin: 0;
   font-size: 16px;
   line-height: 32px;
@@ -1107,9 +1110,9 @@ display: inline-flex;
   max-width: 100%;
 }  */
 
-.tech_box:hover { margin-bottom:15px;
+/* .tech_box:hover { margin-top:15px;
   transition: all 0.4s ease;
-}
+} */
 
 /* ////******Teach section end*******.// */
 
@@ -1314,7 +1317,7 @@ display: inline-flex;
   }
   .dev_left h1 {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 20px;
     margin-bottom: 10px;
     line-height: 36px;
@@ -1402,7 +1405,7 @@ margin-top: 270px;
     padding: 32px;
     margin: 10px 0 10px 0;
     border-radius: 6px;
-    height: 300px;
+    height: 400px;
   }
 
   /* /******** tailored section  end************* */
@@ -1481,7 +1484,7 @@ margin-top: 270px;
   .dev_left h1 {
     color: #fff;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 36px;
     text-align: center;
     padding: 5px 0;
@@ -1702,7 +1705,7 @@ margin-top: 270px;
   .dev_left h1 {
     color: #fff;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 36px;
   }
   .dev_left h2 {

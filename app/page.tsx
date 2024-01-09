@@ -13,7 +13,6 @@ import Trust from "./trust/page";
 import Marquee from "react-fast-marquee";
 import Form from "./contacts/page";
 import Client from "./client /page";
-import Solution from "./solution/page";
 import Image from "next/image";
 import OurSolution from "./our_solution/page";
 // import "./fonts.css";
@@ -206,7 +205,7 @@ export default function Home() {
       <Degital />
       <Client />
       <Software />
-      <Solution />
+ 
       <Technical />
       <Trust />
       <Form />

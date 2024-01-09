@@ -18,22 +18,22 @@ const CaseHero = () => {
           </p>
 
           <div className={styles.buttons_blog}>
-            <Link href="/casestudy">
+            <a href="/casestudy">
               {" "}
               <div className={styles.case_btn}>All </div>
-            </Link>
-            <Link href="/caseweb">
+            </a>
+            <a href="/caseweb">
               {" "}
               <div className={styles.case_btn}> Web Application</div>
-            </Link>
-            <Link href="/casepages/mobile_web">
+            </a>
+            <a href="/casepages/mobile_web">
               {" "}
               <div className={styles.case_btn}>Mobile Application</div>
-            </Link>
-            <Link href="/casepages/des_web">
+            </a>
+            <a href="/casepages/des_web">
               {" "}
               <div className={styles.case_btn}>Desktop Application</div>
-            </Link>
+            </a>
           </div>
 
           <div className={styles.container_cash}>
