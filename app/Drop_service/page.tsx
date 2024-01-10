@@ -73,15 +73,15 @@ const items    = [
   },
 ]; 
 const Dropservice = () => (
-   <div className={styles.drop_main}>
+   <div >
   <Space >  
  
       <Dropdown
-
+prefixCls={styles.drop_menu}
         menu={{
           items,
         }}
-        className={styles.drop_menu}
+
         trigger={['click']}
         placement="bottom"
       >

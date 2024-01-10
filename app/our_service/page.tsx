@@ -73,7 +73,7 @@ const OurServices = () => {
                 />
                 <div className={styles.service_content}>
                   <h1>Development</h1>
-                  <p>Upraise the user experience with elegant designs</p>
+                  <p>Empower your business through digital transformation</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="43"
@@ -110,7 +110,7 @@ const OurServices = () => {
                 />
                 <div className={styles.service_content}>
                   <h1>Cloud & DevOps</h1>
-                  <p>Upraise the user experience with elegant designs</p>
+                  <p>Be ready for exceptional growth with cloud infrastructure</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="43"
@@ -147,7 +147,7 @@ const OurServices = () => {
                 />
                 <div className={styles.service_content}>
                   <h1>Staff Augmentation</h1>
-                  <p>Upraise the user experience with elegant designs</p>
+                  <p>our own team which you can count on everyday</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="43"

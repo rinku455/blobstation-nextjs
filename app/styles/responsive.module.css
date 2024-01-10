@@ -375,13 +375,14 @@
   font-size: 18px;
   line-height: 25px;
   width: 100%;
-
   margin-bottom: 24px;
 }
 
 .input .form {
   color: gray;
 }
+.form:hover {border: 1px solid transparent;}
+.form:focus {border: 1px solid black; box-shadow: none;}
 
 .select {
   min-height: 60px;
@@ -396,7 +397,7 @@
   color: #5e6062;
 }
 
-.check {
+.check .Wrapper{
   padding-left: 0;
   padding-right: 0;
   font-size: 16px;
@@ -404,18 +405,13 @@
   line-height: 22px;
   margin: 0 10px 0 0;
 }
+.check:focus {box-shadow: #2e8096;}
 
-.check span {
-  padding-inline-end: 0px;
+.check .input{    border: 3px solid black;
+  width: 16px;
+  height: 16px;
 }
 
-.check span .ant_checkbox {
-  border: 3px solid black;
-}
-
-.check.ant-checkbox .ant-checkbox-inner {
-  border: 3px solid black;
-}
 
 .form_box_h3 {
   font-size: 16px;
@@ -451,9 +447,14 @@
   line-height: 25px;
 }
 
-.form .ant-input:focus {
-  border: 1px solid black;
+.textarea:hover {
+  border: 1px solid transparent;
 }
+.textarea:focus {
+  border: 1px solid black; box-shadow: none;
+}
+
+
 
 .submit {
   background-color: #2e8096;
@@ -502,7 +503,12 @@
   width: 100%;      max-width: fit-content;
 }
 
+.check-inner {
+border: 3px solid black; box-shadow: #2e8096;
+}
 
+.border { width: 16px; height: 16px;  border: 3px solid black;
+}
 
 .contact_Img {   border-radius: 6px;    margin-left: 60px;
   width: -webkit-fill-available;
@@ -529,7 +535,7 @@
   color: #2e8096;
 }
 
-.client_box {
+.client_box {     font-family: 'Satoshi';
   background-color: red;
   border: 0.77px solid #d8d8d8;
   border-radius: 6.18px;
@@ -545,6 +551,9 @@
   height: 13px;
 }
 
+.client_box ul {
+  display: flex; list-style: none; margin:5px 0;
+}
 .client_box h2 {
   font-size: 18px;
   font-weight: 700;
@@ -567,31 +576,6 @@
   font-weight: 400;
 }
 
-/* .stick-active {
-  width: 50px;
-  height: 50px;
-  border: 1px solid blue;
-  border-radius: 50px;
-}
-
-.ant-carousel .slick-dots-bottom{
-  width: 50px;
-  height: 50px;
-  border: 1px solid blue;
-  border-radius: 50px;
-}  
-
-.carousel_btn  .slick-dots li {
-  background-color: blue;
-}
-
-.carousel_btn .ant-carousel .slick-dots li button:hover{
-  background-color: blue;
-} */
-
-.client_box ul {
-  display: flex;
-}
 
 .client_box p {
   margin-top: 11px;

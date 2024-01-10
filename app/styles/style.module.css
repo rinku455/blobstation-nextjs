@@ -23,17 +23,22 @@ border-radius: 5px;
 } */
 
 
-.drop_menu {    list-style-type: none;
+.drop_menu {    
   background-color: #ffffff;
   background-clip: padding-box;
   border-radius: 8px;
   outline: none;
-  
-  margin-left: 116px;
+  background-color: transparent;
+  box-shadow: none !important;
   max-width: 221px;
   border: 1px solid #ddd4d4;
 }
-
+.drop_menu__1n0kB-menu {
+  box-shadow: none !important;
+}
+.style_drop_menu__1n0kB-menu{
+  box-shadow: none !important;
+}
 .sidebar_ul {
   width: 663px;
   text-align: center;
@@ -71,11 +76,12 @@ border-radius: 5px;
   align-items: center;
   font-size: 16px;
   min-width: 221px;
-  margin: 10px 0;
+  margin: 5px 0;
   padding-right: 16px;
   font-family: 'Satoshi';
   font-weight: 500;}
-  .drop_box:hover  {background-color: transparent; color: #017392;}  
+
+.drop_box:hover {background-color: transparent; color: #017392;}  
 
 .container {
   max-width: 1403px;
@@ -1086,7 +1092,7 @@ min-height: 405px;
 
 .tech_wrapper_p {
   text-align: center;
-  padding: 0px 0 20px 0;
+  padding: 0px 2px 20px 2px;
   margin: 0;
   font-size: 18px;
   font-weight: 400;
@@ -1416,9 +1422,25 @@ display: inline-flex;
 margin-top: 270px; 
 }
 
-
-
-
+.service_box {
+  position: relative;
+  max-height: 376px;
+  margin:  8px ;
+width: 100%;
+max-width: 100%;
+}
+.service_content h1 {
+  font-size: 32px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+.service_content p {
+  margin-left: 30px;
+  margin-right: auto;
+}
+.bi_Service_arrow {
+  margin-left: 30px;
+}
   
   .book_btn {
     height: 60px;
@@ -1653,6 +1675,18 @@ margin-top: 270px;
 }
 
 @media only screen and (max-width: 468px) {
+  .service_content h1 {
+    font-size: 32px;margin: 0;
+    padding: 0 0 6px 0;
+  }
+  .service_content p {
+    margin: 0;
+    padding: 0;
+  }
+  .bi_Service_arrow {
+    margin-left: 0px;
+  }
+    
   .hero_main {
     padding: 20px 0px; 
     
