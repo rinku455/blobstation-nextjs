@@ -653,7 +653,7 @@
 
 /* *********************inpix_hero start****************** */
 
-.inpix_hero {
+.inpix_hero {     font-family: 'Satoshi';
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -834,7 +834,7 @@
 
 .client_bg_wrapper h2 {
   margin: 0;
-  font-size: 28px;
+  font-size: 28px;    font-family: 'Satoshi';
   color: #017392;
   font-weight: 700;
   line-height: 52px;
@@ -843,7 +843,7 @@
 .client_bg_wrapper p {
   margin-bottom: 0;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 500;    font-family: 'Satoshi';
   line-height: 28px;
 }
 
@@ -873,14 +873,14 @@
 .client_ul li h3 {
   color: #2e8096;
   margin: 0;
-  padding: 0;
+  padding: 0;    font-family: 'Satoshi';
   font-size: 21px;
   font-weight: 700;
 }
 
 .client_ul li p {
   padding: 0 0 0px 0;
-  font-size: 15px;
+  font-size: 15px;    font-family: 'Satoshi';
   font-weight: 500;
   line-height: 17.41px;
   margin-bottom: 32px;
@@ -888,7 +888,7 @@
 
 .client_ul li .last_p {
   padding: 0 0 0px 0;
-  margin: 0;
+  margin: 0;    font-family: 'Satoshi';
 }
 
 .opportunity_wrapper {

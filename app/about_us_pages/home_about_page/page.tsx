@@ -16,10 +16,11 @@ const AboutHome = () => {
             make it happen.
           </p>
         <div className={styles.buttons_design}>
-                <div className={styles.design_btn}>UI/UX Design</div>
-                <div className={styles.design_btn}> Product Design</div>
-                <div className={styles.design_btn}>Graphics Design</div>
-                <div className={styles.design_btn}>Brand Building</div>
+                <div className={styles.design_btn}>Problem-Solvers</div>
+                <div className={styles.design_btn}> Passionate</div>
+                <div className={styles.design_btn}>Proactive and Agile</div>
+                <div className={styles.design_btn}>Result-Driven</div>
+                <div className={styles.design_btn}> Client-Centric</div>
             </div>
         </div>
       </div>

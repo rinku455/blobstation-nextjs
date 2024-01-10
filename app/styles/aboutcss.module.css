@@ -41,7 +41,7 @@
   padding-top: 100px;
   padding-bottom: 50px;
 }
-.about_hero h1 {
+.about_hero h1 {font-family: 'Satoshi';
   font-size: 42px;
   line-height: 58px;
   margin-top: 20px;
@@ -55,7 +55,7 @@
 .about_hero p {
   font-size: 24px;
   line-height: 40px;
-
+  font-family: 'Satoshi';
   width: 100%;
   max-width: 890px;
 }
@@ -107,7 +107,7 @@
 
 .our_story_left h2 {
   color: #2e8096;
-  font-size: 30px;
+  font-size: 30px;font-family: 'Satoshi';
   margin-top: 20px;
   margin-bottom: 10px;
   line-height: 56px;
@@ -116,16 +116,16 @@
 .our_story_left h3 {
   font-size: 24px;
   line-height: 42px;
-  margin-top: 20px;
+  margin-top: 20px;font-family: 'Satoshi';
   margin-bottom: 10px;
   font-weight: 700;
 }
 .our_story_left p {
   margin-top: 12px;
   padding-right: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 32px;font-family: 'Satoshi';
   margin-bottom: 10px;
 }
 
@@ -136,7 +136,7 @@
 
 .our_story_right h3 {
   font-size: 24px;
-  line-height: 42px;
+  line-height: 42px;font-family: 'Satoshi';
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 700;
@@ -144,8 +144,8 @@
 .our_story_right p {
   margin-top: 12px;
   padding-right: 0;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;font-family: 'Satoshi';
   line-height: 32px;
   margin-bottom: 10px; 
 }
@@ -165,7 +165,7 @@
 .core_heading h2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 36px;
+  font-size: 36px;font-family: 'Satoshi';
   font-weight: 700;
   line-height: 52px;
 }
@@ -177,8 +177,8 @@
   width: 100%;
   margin-top: 12px;
   padding-right: 0;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 16px;font-family: 'Satoshi';
+
   font-weight: 500;
   line-height: 32px;
 }
@@ -194,7 +194,7 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 42px;
-  margin-bottom: 24px;
+  margin-bottom: 24px;font-family: 'Satoshi';
   padding: 0;
 }
 
@@ -202,7 +202,7 @@
   padding-right: 0;
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500;font-family: 'Satoshi';
   margin-top: 12px;
   line-height: 32px;
   margin-bottom: 24px;
@@ -266,7 +266,7 @@ overflow-x: hidden;
   margin-top: 20px;
   margin-bottom: 42px;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 700;font-family: 'Satoshi';
   line-height: 52px;
   text-align: center;
 }
@@ -275,7 +275,7 @@ overflow-x: hidden;
 
 .different_wrapper  h2{
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 700;font-family: 'Satoshi';
   line-height: 32px;
 
 }
@@ -283,7 +283,7 @@ overflow-x: hidden;
 .different_wrapper  p{ 
   font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 32px;font-family: 'Satoshi';
   margin-bottom: 24px;
 }
 
@@ -370,14 +370,14 @@ overflow-x: hidden;
 .leader_wrapper h2 {
   margin-top: 0;
   font-size: 30px;
-  line-height: 1.4em;
+  line-height: 1.4em;font-family: 'Satoshi';
   margin-bottom: 10px;
   font-weight: 700;
 }
 .leader_wrapper p {
   align-self: auto;
   margin-bottom: 50px;
-  padding-right: 0;
+  padding-right: 0;font-family: 'Satoshi';
   font-size: 21px;
   line-height: 1.4em;
   font-weight: 400;
@@ -386,7 +386,7 @@ overflow-x: hidden;
 .leader_wrapper h3 {
   color: #252b33;
   margin-top: 9px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;font-family: 'Satoshi';
   font-size: 21px;
   font-weight: 700;
   line-height: 1em;
@@ -396,7 +396,7 @@ overflow-x: hidden;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400;font-family: 'Satoshi';
   line-height: 1em;
 }
  
@@ -430,13 +430,13 @@ margin: 0;
   margin-top: 20px;
     margin-bottom: 10px;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 700;font-family: 'Satoshi';
     line-height: 52px;
     text-align: center;
 }
 .expert_wrapper p {
   font-size: 20px;    line-height: 32px;    margin-top: 12px;
-  text-align: center;   margin-bottom: 150px;
+  text-align: center;   margin-bottom: 150px;font-family: 'Satoshi';
 } 
 
 /* .marquee_expert_box {
@@ -521,7 +521,7 @@ padding: 0;
     padding: 21px 30px;
     margin-top: 0px;
     max-width: 255px;
-    height: 400px;
+    height: 300px;
   background-color: #f9f9f9;
   border-radius: 18px;
   text-align: center;
@@ -603,13 +603,13 @@ padding: 0;
 .expert_box h2{
 margin: 4px 0 8px;
 font-size: 20px;
-font-weight: 700;
+font-weight: 700;font-family: 'Satoshi';
 }
 
 .expert_box h3{
 font-size: 16px;
 line-height: 32px;
-padding: 0;
+padding: 0;font-family: 'Satoshi';
 margin: 0;
 }
 
@@ -627,7 +627,7 @@ margin: 0;
 font-size: 42px;
     line-height: 58px;
     margin: 20px 0 10px 0;
-    font-weight: 700;
+    font-weight: 700;font-family: 'Satoshi';
 }
 
 
@@ -637,7 +637,7 @@ font-size: 42px;
 .work_wrapper p {
 
 font-size: 24px;
-line-height: 40px;
+line-height: 40px;font-family: 'Satoshi';
 }
 
 .space_block {
@@ -653,7 +653,7 @@ padding-bottom: 32px;
 }
 .tech_wrapper h1 {
    margin-top: 20px;
-margin-bottom: 10px;
+margin-bottom: 10px;font-family: 'Satoshi';
 font-size: 36px;
 font-weight: 700;
 line-height: 52px;
@@ -662,7 +662,7 @@ line-height: 52px;
 .tech_wrapper p {
  font-size: 18px;
  font-weight: 500;
- line-height: 32px;
+ line-height: 32px;font-family: 'Satoshi';
  }
 
 .tech_box {
@@ -683,7 +683,7 @@ line-height: 52px;
 }
 .tech_content  h2{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 700;font-family: 'Satoshi';
     line-height: 32px;
     margin-bottom: 8px;
 }
@@ -691,7 +691,7 @@ line-height: 52px;
 
 .tech_content  p {
     font-size: 18px;
-    font-style: normal;
+    font-style: normal;font-family: 'Satoshi';
     font-weight: 500;
     line-height: 32px;
     margin: 12px 0 0px 0;
@@ -708,7 +708,7 @@ line-height: 52px;
 }
 .growth_content  h2{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 700;font-family: 'Satoshi';
     line-height: 32px;
     margin-bottom: 8px;
 }
@@ -717,7 +717,7 @@ line-height: 52px;
 .growth_content  p {
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500;font-family: 'Satoshi';
     line-height: 32px;
     margin: 12px 0 0px 0;
 }
@@ -742,10 +742,11 @@ line-height: 52px;
   padding: 5px 5px 5px 0;
   font-size: 16px;
   display: flex;
-  border: none;
+  border: none;font-family: 'Satoshi';
   margin: 0;
+  font-weight: 500;
   align-items: center;
-  cursor: pointer;
+  cursor: pointer;    font-family: 'Satoshi';
 }
 
 .bi_arrow { margin-left: 5px;}
