@@ -19,7 +19,7 @@ const Client = () => {
           </h1>
           </div>
           <div className={styles.container_fluid}>
-            <Carousel className={styles.carousel_btn}  slidesToShow={3} autoplay>
+            <Carousel className={styles.carousel_btn}  slidesToShow={1} autoplay>
               <div className={styles.carousel_box}>
                 <div className={styles.client_box} style={contentStyle}>
                   <h2>VNP Portal</h2>

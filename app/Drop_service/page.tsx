@@ -8,7 +8,9 @@ import Image from "next/image";
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
 />;
 
-const items = [
+
+
+const items    = [
   {
     key: "1",
     label: (
@@ -16,8 +18,8 @@ const items = [
         <Image
           className={styles.drop}
           src="/images/drop-1.svg"
-          width={46}
-          height={46}
+          width={40}
+          height={40}
           alt=""
         />
         <Link href="/design">Design</Link>
@@ -31,8 +33,8 @@ const items = [
         <Image
           className={styles.drop}
           src="/images/drop-2.svg"
-          width={46}
-          height={46}
+          width={40}
+          height={40}
           alt=""
         />
         <Link href="/development">Development</Link>
@@ -46,8 +48,8 @@ const items = [
         <Image
           className={styles.drop}
           src="/images/drop-3.svg"
-          width={46}
-          height={46}
+          width={40}
+          height={40}
           alt=""
         />
         Cloud & DevOps
@@ -61,8 +63,8 @@ const items = [
         <Image
           className={styles.drop}
           src="/images/drop-4.svg"
-          width={46}
-          height={46}
+          width={40}
+          height={40}
           alt=""
         />
         Staff Augmentation
@@ -71,13 +73,15 @@ const items = [
   },
 ]; 
 const Dropservice = () => (
-  <Space >
-   
-      <Dropdown 
-      className={styles.drop_menu}
+   <div className={styles.drop_main}>
+  <Space >  
+ 
+      <Dropdown
+
         menu={{
           items,
         }}
+        className={styles.drop_menu}
         trigger={['click']}
         placement="bottom"
       >
@@ -100,7 +104,10 @@ const Dropservice = () => (
           
         </Button>
       </Dropdown>
+     
     </Space>
+    </div>
 );
+
 
 export default Dropservice;

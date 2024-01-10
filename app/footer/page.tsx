@@ -9,46 +9,67 @@ const Footer = () => {
       <div className={styles.footer_wrapper}>
         <div className={styles.container}>
           <Row>
-            <Col
+            <Col className={styles.col_footer}
               xs={{ span: 24 }}
               sm={{ span: 24 }}
               md={{ span: 12 }}
-              lg={{ span: 8 }}
-              xl={{ span: 8 }}
+              lg={{ span: 9 }}
+              xl={{ span: 9 }}
             >
               <Image
-                className={styles.footer}
                 src="/images/footer-logo.png"
                 width={238}
                 height={30}
                 alt=""
               />
 
-              <h2>
+              <h2 >
                 We develop software solutions by working closely with clients to
-                understand business needs. Innovative solutions built with
+                understand business needs. Innovative solutions built with the
                 client's vision and our technical expertise empower the
                 businesses in modern digital world.
               </h2>
               <ul className={styles.icon}>
                 <li>
-                  <a href="#"></a>
+                  <a href="#">
+                  <Image
+                      src="/images/insta.svg"
+                      width={24}
+                      height={25}
+                      alt=""
+                    />
+                  </a>
                 </li>
                 <li>
                   {" "}
-                  <a href="#"> </a>
+                  <a href="#">
+                    {" "}
+                    <Image
+                      src="/images/facebook-icon.svg"
+                      width={24}
+                      height={25}
+                      alt=""
+                    />
+                  </a>
                 </li>
                 <li>
-                  <a href="#"> </a>
+                  <a href="#">
+                  <Image
+                      src="/images/in.svg"
+                      width={24}
+                      height={25}
+                      alt=""
+                    />
+                  </a>
                 </li>
               </ul>
             </Col>
-            <Col
+            <Col className={styles.col_footer}
               xs={{ span: 24 }}
               sm={{ span: 24 }}
               md={{ span: 6 }}
-              lg={{ span: 4 }}
-              xl={{ span: 4 }}
+              lg={{ span: 3 }}
+              xl={{ span: 3 }}
             >
               <h4>Quick Links </h4>
               <ul>
@@ -66,12 +87,12 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col
+            <Col className={styles.col_footer}
               xs={{ span: 24 }}
               sm={{ span: 24 }}
               md={{ span: 12 }}
-              lg={{ span: 5 }}
-              xl={{ span: 5 }}
+              lg={{ span: 4 }}
+              xl={{ span: 4 }}
             >
               <h4>Services </h4>
               <ul>
@@ -92,12 +113,12 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col
+            <Col className={styles.col_footer}
               xs={{ span: 24 }}
               sm={{ span: 24 }}
               md={{ span: 12 }}
-              lg={{ span: 7 }}
-              xl={{ span: 7 }}
+              lg={{ span: 8 }}
+              xl={{ span: 8 }}
             >
               <div>
                 <div className={styles.footer_main}>

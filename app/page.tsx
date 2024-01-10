@@ -15,6 +15,7 @@ import Form from "./contacts/page";
 import Client from "./client /page";
 import Image from "next/image";
 import OurSolution from "./our_solution/page";
+
 // import "./fonts.css";
 // import "./globals.css"
 export default function Home() {
@@ -195,7 +196,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+    
       <OurServices />
       <FastGrow />
       <Tailored />

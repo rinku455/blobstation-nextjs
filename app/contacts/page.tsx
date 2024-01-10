@@ -10,7 +10,8 @@ import Image from "next/image";
 
 const Form = () => {  
   return (
-    <div> &apos;
+
+<div> 
       {<div className={styles.form_wrapper}>
         <div className={styles.container}>
           <Row className={styles.form_row}>
