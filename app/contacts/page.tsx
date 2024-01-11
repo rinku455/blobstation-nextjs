@@ -52,20 +52,34 @@ const Form = () => {
                 </select>
 
                 <h3 className={styles.form_box_h3}>I'M LOOKING FOR:</h3>
-                <ul>
+                <ul className={styles.check_ul}>
                   <li>
-                    <Checkbox className={styles.check}>Design</Checkbox>
+                    <label className={styles.container_check}>
+                      Design
+                      <Input type="checkbox" />
+                      <span className={styles.checkmark}></span>
+                    </label>
                   </li>
                   <li>
-                    <Checkbox className={styles.check}>Cloud & Devops</Checkbox>
+                    <label className={styles.container_check}>
+                      Cloud & Devops
+                      <Input type="checkbox" />
+                      <span className={styles.checkmark}></span>
+                    </label>
                   </li>
                   <li>
-                    <Checkbox className={styles.check}>Development</Checkbox>
+                    <label className={styles.container_check}>
+                      Development
+                      <Input type="checkbox" />
+                      <span className={styles.checkmark}></span>
+                    </label>
                   </li>
                   <li>
-                    <Checkbox className={styles.check}>
+                    <label className={styles.container_check}>
                       Staff Augmentation
-                    </Checkbox>
+                      <Input type="checkbox" />
+                      <span className={styles.checkmark}></span>
+                    </label>
                   </li>
                 </ul>
 

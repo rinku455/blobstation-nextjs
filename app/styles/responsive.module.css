@@ -1,3 +1,83 @@
+.check_ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 32px 0;
+}
+.check_ul li {
+  padding: 0;
+  margin: 0px 12px 12px 0;
+}
+.container_check {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 3px 0 0 30px;
+  position: relative;
+  height: 16px;
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Satoshi";
+}
+
+/* Hide the browser's default checkbox */
+.container_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #fff;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container_check:hover Input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_check Input:checked ~ .checkmark {
+  background-color: #2e8096;
+  border: 3px solid #2e8096;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container_check Input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_check .checkmark:after {
+  left: 4px;
+  top: 2px;
+  width: 5px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
 .container {
   max-width: 1403px;
   padding: 0 42px;
@@ -5,8 +85,6 @@
   margin: 0 auto;
 }
 
-.container_all {
-}
 .container_fluid {
   max-width: 1503px;
   padding-top: 50px;
@@ -56,7 +134,8 @@
   margin: 20px 0;
   margin-bottom: 10px;
   font-size: 36px;
-  font-weight: 700;    font-family: 'Satoshi';
+  font-weight: 700;
+  font-family: "Satoshi";
   line-height: 52px;
 }
 
@@ -64,9 +143,10 @@
   color: #2e8096;
 }
 
-.work_wrapper_p {    margin-top: 20px;
+.work_wrapper_p {
+  margin-top: 20px;
   font-size: 16px;
-  font-weight: 400;  
+  font-weight: 400;
   line-height: 32px;
 }
 
@@ -79,11 +159,13 @@
   border: none;
   margin: 0;
   align-items: center;
-  cursor: pointer;    font-weight: 500;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .bi_arrow {
-  margin-left: 5px;z-index: 2;
+  margin-left: 5px;
+  z-index: 2;
 }
 
 .read_btn4:hover .bi_arrow {
@@ -105,9 +187,9 @@
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   line-height: 32px;
-  color: hsla(87.39130434782608, 29.48%, 43.05%, 1.00);
+  color: hsla(87.39130434782608, 29.48%, 43.05%, 1);
 }
 
 .work_text {
@@ -118,7 +200,7 @@
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
 }
 
 .video_box {
@@ -160,18 +242,18 @@
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
 }
 
 .try_work3 {
-  background-color:#F4F4FF;
+  background-color: #f4f4ff;
   border-radius: 8px;
   padding: 32px;
   min-height: 434px;
   position: relative;
   margin: 10px 10px 10px 0;
 
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
 }
 
 .work_text3 {
@@ -198,7 +280,7 @@
   border-radius: 8px;
   padding: 32px;
   min-height: 434px;
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   position: relative;
   margin: 10px;
 }
@@ -381,8 +463,13 @@
 .input .form {
   color: gray;
 }
-.form:hover {border: 1px solid transparent;}
-.form:focus {border: 1px solid black; box-shadow: none;}
+.form:hover {
+  border: 1px solid transparent;
+}
+.form:focus {
+  border: 1px solid black;
+  box-shadow: none;
+}
 
 .select {
   min-height: 60px;
@@ -397,42 +484,30 @@
   color: #5e6062;
 }
 
-.check .Wrapper{
+.check {
   padding-left: 0;
   padding-right: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
   margin: 0 10px 0 0;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 10px #2e8096 inset;
 }
-.check:focus {box-shadow: #2e8096;}
-
-.check .input{    border: 3px solid black;
-  width: 16px;
-  height: 16px;
+.check:focus {
+  border: 3px solid transparent;
 }
 
-
+.Checkbox .check {
+  border: 3px;
+  border-color: red;
+}
 .form_box_h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 32px;
   padding: 0;
   margin: 20px 00 0 0;
-}
-
-.form_wrapper ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.form_wrapper ul li {
-  padding: 0 0px;
-  margin: 0;
 }
 
 .textarea {
@@ -451,10 +526,9 @@
   border: 1px solid transparent;
 }
 .textarea:focus {
-  border: 1px solid black; box-shadow: none;
+  border: 1px solid black;
+  box-shadow: none;
 }
-
-
 
 .submit {
   background-color: #2e8096;
@@ -472,10 +546,10 @@
 
 .submit:hover {
   background-color: #fff;
-  color: #2e8096; 
-  border: 1px solid #2e8096; transition: all  0.3s ease-in ;
+  color: #2e8096;
+  border: 1px solid #2e8096;
+  transition: all 0.3s ease-in;
 }
-
 
 .form_wrapper h4 {
   font-size: 18px;
@@ -500,19 +574,26 @@
   padding: 32px;
   border-radius: 8px;
   margin: 30px 0 0 60px;
-  width: 100%;      max-width: fit-content;
+  width: 100%;
+  max-width: fit-content;
 }
 
 .check-inner {
-border: 3px solid black; box-shadow: #2e8096;
+  border: 3px solid black;
+  box-shadow: #2e8096;
 }
 
-.border { width: 16px; height: 16px;  border: 3px solid black;
+.border {
+  width: 16px;
+  height: 16px;
+  border: 3px solid black;
 }
 
-.contact_Img {   border-radius: 6px;    margin-left: 60px;
+.contact_Img {
+  border-radius: 6px;
+  margin-left: 60px;
   width: -webkit-fill-available;
-  }
+}
 
 /* /******** contact  section  end************* */
 
@@ -535,7 +616,8 @@ border: 3px solid black; box-shadow: #2e8096;
   color: #2e8096;
 }
 
-.client_box {     font-family: 'Satoshi';
+.client_box {
+  font-family: "Satoshi";
   background-color: red;
   border: 0.77px solid #d8d8d8;
   border-radius: 6.18px;
@@ -552,7 +634,9 @@ border: 3px solid black; box-shadow: #2e8096;
 }
 
 .client_box ul {
-  display: flex; list-style: none; margin:5px 0;
+  display: flex;
+  list-style: none;
+  margin: 5px 0;
 }
 .client_box h2 {
   font-size: 18px;
@@ -576,7 +660,6 @@ border: 3px solid black; box-shadow: #2e8096;
   font-weight: 400;
 }
 
-
 .client_box p {
   margin-top: 11px;
   font-size: 18px;
@@ -585,35 +668,52 @@ border: 3px solid black; box-shadow: #2e8096;
 }
 
 @media (max-width: 1200px) {
- 
-  .form_wrapper ul li {
+  .check_ul li {
+    padding: 0;
+    margin: 0px 8px 12px 0;
+  }
+  .container_check {
     font-size: 14px;
   }
 }
 
+@media (max-width: 1101px) {
+  .check_ul li {
+    padding: 0;
+    margin: 0px 5px 12px 0;
+  }
+  .container_check {
+    font-size: 12px;
+  }
+}
 @media (max-width: 992px) {
-  .contact_Img {   border-radius: 6px;    margin-left: 0px;
-    max-width: 100%; width: 100%;}
-    .meet_box {
-      background-color: #f9f9f9;
-      padding: 32px;
-      border-radius: 8px;
-      margin: 30px 0 0 60px;
-      width: 100%;
-      max-width: fit-content;
-    }
+  .contact_Img {
+    border-radius: 6px;
+    margin-left: 0px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .meet_box {
+    background-color: #f9f9f9;
+    padding: 32px;
+    border-radius: 8px;
+    margin: 30px 0 0 60px;
+    width: 100%;
+    max-width: fit-content;
+  }
   .form_row {
     max-width: 550px;
     margin: 0 auto;
   }
 
-  .form_wrapper ul li {
+  .check_ul li {
+    padding: 0;
+    margin: 0px 10px 12px 0;
+  }
+  .container_check {
     font-size: 16px;
   }
-  .form_wrapper ul {
-    list-style: none;
-    display: block;
-  }
+
   .meet_box {
     margin: 30px 0 0 0px;
   }
@@ -624,6 +724,14 @@ border: 3px solid black; box-shadow: #2e8096;
 }
 
 @media only screen and (max-width: 768px) {
+  .check_ul {
+    display: block;
+  }
+  .check_ul li {
+    padding: 0;
+    margin: 0px 12px 12px 0;
+  }
+
   .form {
     font-size: 16px;
     padding: 12px;
@@ -714,7 +822,8 @@ border: 3px solid black; box-shadow: #2e8096;
 }
 
 .solution_heading h1 {
-  margin-top: 20px;    font-family: 'Satoshi';
+  margin-top: 20px;
+  font-family: "Satoshi";
   margin-bottom: 10px;
   font-size: 36px;
   font-weight: 700;
@@ -726,7 +835,8 @@ border: 3px solid black; box-shadow: #2e8096;
 }
 .solution_heading p {
   text-align: center;
-  padding: 0;   font-family: 'Satoshi';
+  padding: 0;
+  font-family: "Satoshi";
   margin-top: 12px;
   line-height: 32px;
   font-size: 20px;
