@@ -8,6 +8,9 @@
   border-radius: 5px;
 }
 
+.drop_menu .menu {
+  box-shadow: none;
+}
 .drop_menu {
   background-color: #ffffff;
   background-clip: padding-box;
@@ -22,8 +25,8 @@ padding: 0
   width: 100%;
 }
 
-.drop_menu ul li {
-padding: 0; margin: 0 ;
+.drop_menu ul  {
+padding: 0; margin: 0 ; box-shadow: none ;
 }
 .drop_menu:hover {
   background-color: #fff !important;
@@ -78,11 +81,10 @@ padding: 0; margin: 0 ;
   align-items: center;
   font-size: 16px;
   min-width: auto;
-  padding-right: 0px;
   font-family: "Satoshi";
   font-weight: 500;
   background: #fff;
-  padding: 7px 9px;
+  padding: 12px 9px;
   margin: -5px -11px;
 }
 
@@ -346,20 +348,20 @@ padding: 0; margin: 0 ;
 .btn_box {
   width: 100%;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .book_btn {
   height: 60px;
   font-weight: 500;
   background-color: #2e8096;
-  padding: 0 21px;
+  padding: 0 25px;
   font-family: "Satoshi";
   font-size: 18px;
   border: none;
-  border-radius: 10px;
+  border-radius: 6px;
   color: #fff;
   cursor: pointer;
-  margin: 5px 20px 0 0;
+  margin: 0px 20px 0 0;
 }
 
 .book_btn a {
@@ -582,7 +584,11 @@ padding: 0; margin: 0 ;
   font-weight: 400;
 }
 
-.footer_wrapper ul li a.active {
+.footer_wrapper ul li a:active {
+  color: #017392;
+}
+
+.footer_wrapper ul li a:focus  {
   color: #017392;
 }
 .footer_wrapper ul li a:hover {
@@ -1071,7 +1077,7 @@ padding: 0; margin: 0 ;
   color: #fff;
   font-size: 32px;
   font-weight: 400;
-  line-height: 70px;
+  line-height: 36px;
 }
 
 .dev_left h2 {
@@ -1079,6 +1085,7 @@ padding: 0; margin: 0 ;
   font-weight: 700;
   line-height: 32px;
   color: #fff;
+  margin-top: 20px;
 }
 
 /* ////******Software section end *******.// */
@@ -1195,7 +1202,6 @@ display: inline-flex;
     margin-left: 0;
   }
   .hero_left_h1 {
-    margin-top: 20px;
     margin-bottom: 10px;
     font-size: 30px;
     line-height: 56px;
@@ -1279,19 +1285,16 @@ display: inline-flex;
   }
 
   .book_btn {
-    padding: 0 21px;
+    padding: 0 25px;
     margin: 0 20px 0 0;
   }
   .read_btn {
     padding: 0 px;
     margin: 5px 20px 0 0;
+    font-size: 15px;
   }
 
-  .hero_left_h1 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 30px;
-  }
+  
   .hero_left_p {
     font-size: 24px;
     line-height: 40px;
@@ -1372,7 +1375,7 @@ display: inline-flex;
   .read_btn3 {
     color: #2e8096;
     font-size: 16px;
-    padding: 10px 40px;
+    padding: 10px 18px;
   }
   .circle {
     width: 175px;
@@ -1429,7 +1432,7 @@ display: inline-flex;
   }
   /* /******** team section  end************* */
   .tech_box {
-    height: 475px;
+    height: fit-content ;
   }
 
   .tech_wrapper {
@@ -1438,6 +1441,11 @@ display: inline-flex;
 }
 
 @media (max-width: 768px) {
+  .hero_left_h1 {
+    margin-top: 70px;
+  }
+  .read_box { display: flex ; 
+  }
   .col_footer {
     padding: 43px 0 0 0;
     margin: 0;
@@ -1599,7 +1607,6 @@ display: inline-flex;
     padding: 5px 0;
     margin: 0;
     font-size: 16px;
-    text-align: center;
   }
 
   /* /******** tech section  end************* */
@@ -1693,6 +1700,10 @@ display: inline-flex;
 }
 
 @media only screen and (max-width: 468px) {
+
+  .tech_box_h2 {
+    text-align: justify ;
+  }
   .service_content h1 {
     font-size: 32px;
     margin: 0;
@@ -1792,6 +1803,7 @@ display: inline-flex;
     line-height: 30px;
     color: #fff;
     font-size: 25px;
+    margin-top: 20px;
   }
   /* /******** Software section  end************* */
 

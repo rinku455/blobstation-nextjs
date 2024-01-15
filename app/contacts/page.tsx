@@ -43,7 +43,7 @@ const Form = () => {
 
                 <Input className={styles.form} placeholder="Email address" />
                 <Input className={styles.form} placeholder="Phone Number" />
-
+                <Input className={styles.form} placeholder="Company Name" />
                 <select className={styles.select}>
                   <option value="0">Company Type:</option>
                   <option value="1">Startup</option>
